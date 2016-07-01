@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="greater_six">大于6</string>
+    <string name="equal_four_hundred">等于400</string>
+    <string name="greater_five_hundred">大于500</string>
+
+    <string name="greater_one">大于等于1</string>
+    <string name="greater_equal_four_hundred">大于等于400</string>
+    <string name="less_five_hundred">小于500</string>
+
+    <string name="greater_two_hundred">大于200</string>
+
+    <string name="greater_two_hundred_less_four_hundred">大于200小于400</string>
+
+    <string name="greater_equal_five_hundred">大于等于500</string>
+
+    <string name="greater_equal_twenty_five">大于等于25</string>
+
+    <string name="greater_equal_sixteen">大于等于16</string>
+
+    <string name="greater_equal_twenty_one">大于等于21</string>
+    <string name="greater_equal_one_two">大于等于1.2</string>
+    <string name="greater_equal_fifteen">大于等于15</string>
+    <string name="greater_equal_twenty_eight">大于等于28</string>
+    <string name="greater_equal_eighteen">大于等于18</string>
+    <string name="greater_equal_nine">大于等于9</string>
+    <string name="greater_equal_forty">大于等于40</string>
+    <string name="greater_equal_twenty">大于等于20</string>
+    <string name="greater_equal_thirteen_four">大于等于13.4</string>
+    <string name="greater_equal_five_eighteen">大于等于5.18</string>
+
+    <string name="greater_equal_twelfth">大于等于12</string>
+    <string name="greater_equal_four">大于等于4</string>
+    <string name="greater_equal_forteen">大于等于14</string>
+    <string name="greater_equal_two">大于等于2</string>
+    <string name="greater_equal_twenty_three_seven_seven">大于等于23.77</string>
+    <string name="greater_equal_eight_twenty_three">大于等于8.23</string>
+
+    <string name="greater_equal_ninety_one_four">大于等于91.4</string>
+    <string name="greater_equal_fifty_five">大于等于55</string>
+    <string name="greater_equal_fifty_six">大于等于56</string>
+    <string name="greater_equal_twenty_six">大于等于26</string>
+    <string name="greater_equal_five">大于等于5</string>
+    <string name="greater_equal_ninety">大于等于90</string>
+    <string name="greater_equal_forty_five">大于等于45</string>
+
+    <string name="less_equal_one_hundred">小于等于100</string>
+    <string name="greater_equal_seventy">大于等于70</string>
+    <string name="greater_equal_twelfth_three_seven_seven">大于等于23.77</string>
+    <string name="greater_equal_two_hunder_five">大于等于250</string>
+
+</resources>

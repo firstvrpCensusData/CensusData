@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string name="help_y12_1">室外人工攀岩场（代码 77）：指用于开展攀岩运动的室外人工体育场地。</string>
+   <string name="help_y12_2">攀岩馆（代码 78）：指用于开展攀岩运动的室内体育场地。</string>
+   <string name="help_y12_3">攀冰馆（代码 79）：指用于开展攀冰运动的室内体育场地。</string>
+   <string name="help_y12_4">岩/ 冰壁数量：指独立人工攀岩壁、攀冰壁的个数。</string>
+   <string name="help_y12_5">灯光设备：指在体育场馆安装的固定的专用灯光设备。</string>
+</resources>

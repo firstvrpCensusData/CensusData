@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="url">http://192.168.1.109:18667/</string>
+    <string name="url_login">login/Get?username=%1$s&amp;&amp;password=%2$s</string>
+    <string name="url_login_isexist">api/Userisexist?userAccount=%1$s</string>
+    <string name="url_register">api/UserRegist</string>
+
+    <string name="url_put_updataUserInfo">api/user</string>
+
+    <string name="url_get_editPassword">api/EditPassword?userid=%1$s&amp;&amp;oldpwd=%2$s&amp;&amp;newpwd=%3$s</string>
+
+    <string name="url_get_forgetpass">api/findpassword?user_account=%1$s&amp;&amp;user_name=%2$s&amp;&amp;mobile=%3$s&amp;&amp;invite_code=%4$s&amp;&amp;password=%5$s</string>
+
+    <string name="url_get_unitsinfo">api/UnitsInfo?page=%1$d&amp;&amp;rows=%2$d&amp;&amp;org_code=%3$s&amp;&amp;units_name=%4$s&amp;&amp;fill_people=%5$s&amp;&amp;audit_state=%6$d</string>
+    <string name="url_get_placeinfo">api/PlaceInfo?page=%1$d&amp;&amp;rows=%2$d&amp;&amp;units_id=%3$s&amp;&amp;place_code=%4$s&amp;&amp;place_name=%5$s&amp;&amp;audit_state=%6$d&amp;&amp;fill_people=%7$s</string>
+    <string name="url_get_bigplaceinfo">api/bigplaceinfo?page=%1$d&amp;&amp;rows=%2$d&amp;&amp;units_id=%3$s&amp;&amp;place_code=%4$s&amp;&amp;place_name=%5$s&amp;&amp;audit_state=%6$d&amp;&amp;fill_people=%7$s</string>
+
+    <string name="url_post_placeinfo">api/PlaceInfo</string>
+
+    <string name="url_note">api/IndexExplanationDetail?index_id=%1$d</string>
+
+    <string name="url_delete_unitsinfo">api/UnitsInfo/%1$s</string>
+    <string name="url_delete_placeInfo">api/PlaceInfo/%1$s</string>
+    <string name="url_delete_bigplaceInfo">api/BigPlaceInfo/%1$s</string>
+
+    <string name="url_get_placeinfo_special">api/placeinfo?id=%1$s</string>
+    <string name="url_get_bigplaceinfo_special">api/BigPlaceInfo?id=%1$s</string>
+
+    <string name="url_version">apk/index.html</string>
+</resources>

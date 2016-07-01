@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/barcolor"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.firstvrp.censusdata.HelpActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:id="@+id/email_login_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:paddingBottom="50dp">
+
+            <TextView
+                android:id="@+id/help_note"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/exfirsttext"
+                android:textSize="14sp"/>
+        </ScrollView>
+
+        <Button
+            android:layout_alignParentBottom="true"
+            android:id="@+id/help_ok"
+            android:background="@drawable/bg_btnn"
+            android:layout_width="match_parent"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"
+            android:text="确定"/>
+    </RelativeLayout>
+</LinearLayout>

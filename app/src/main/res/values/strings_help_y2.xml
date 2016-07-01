@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="help_y2_1">体育馆（代码 05）：指配备有专门设备，能够进行单项或多项室内竞技比赛和训练的体育建筑。主要由比赛和练习场地、看台和辅助用房及设施组成。席位数不少于 500 个，不包括半封闭的室内设施。</string>
+    <string name="help_y2_2">观众席位：指看台实际容纳的观众座位数。包括活动看台和固定看台的座位。临时摆放的座椅不予统计。</string>
+    <string name="help_y2_3">大屏幕显示设备：指安装在体育馆内的有一定造价投资的、能正常使用的固定大屏幕显示设备。</string>
+    <string name="help_y2_4">主场地长度：指体育馆内可供开展比赛、训练和健身的主场地实际的长度，从看台围墙下计算。</string>
+    <string name="help_y2_5">主场地宽度：指体育馆内可供开展比赛、训练和健身的主场地实际的宽度，从看台围墙下计算。</string>
+    <string name="help_y2_6">室内场地净高：指室内场地地面向上无障碍空间的高度。</string>
+    <string name="help_y2_7">场地面层：指场地面层材质的类型。</string>
+</resources>

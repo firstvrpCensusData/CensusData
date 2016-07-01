@@ -1,0 +1,86 @@
+<!-- A DrawerLayout is intended to be used as the top-level content view using match_parent for both width and height to consume the full space available. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/barcolor"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/viewheight"
+            android:background="@color/barcolor" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="40dp">
+
+            <AutoCompleteTextView
+                android:id="@+id/et_organization_code"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_edit"
+                android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                android:hint="@string/organization_code"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp" />
+
+            <ImageView
+                android:id="@+id/organization_note1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/note"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                />
+            <ImageView
+                android:id="@+id/iv_delete_history"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/delete"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+
+        <com.dd.CircularProgressButton
+            android:id="@+id/btn_organization_code"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:cpb_colorIndicator="@color/cpb_blue"
+            app:cpb_colorIndicatorBackground="@color/cpb_grey"
+            app:cpb_cornerRadius="8dp"
+            app:cpb_selectorComplete="@drawable/complete_state_selector"
+            app:cpb_selectorError="@drawable/error_state_selector"
+            app:cpb_selectorIdle="@drawable/idle_state_selector"
+            app:cpb_textComplete="正在查询"
+            app:cpb_textError="组织机构代码查询失败"
+            app:cpb_textIdle="确定" />
+
+        <TextView
+            android:id="@+id/tv_organization_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="无组织机构代码"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/exfirsttext"/>
+    </LinearLayout>
+</LinearLayout>

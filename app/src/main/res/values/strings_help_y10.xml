@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string name="help_y10_1">室内滑雪场（代码 74）：指供滑雪等运动的训练比赛和健身使用的室内体育场地。</string>
+   <string name="help_y10_2">室外人工滑雪场（代码 75）：指供高山滑雪、跳台滑雪、自由式滑雪、越野滑雪、冬季二项滑雪运动训练比赛健身等使用的室外体育场地。未经人工修整、无人管理、无相应辅助设施的雪场不予统计。</string>
+   <string name="help_y10_3">雪道长度：指滑雪运动训练比赛的雪道长度。</string>
+   <string name="help_y10_4">雪道宽度：指滑雪运动训练比赛的雪道宽度。</string>
+   <string name="help_y10_5">索道数量：指为滑雪运动训练比赛而设置的索道设备条数。</string>
+   <string name="help_y10_6">索道总长度：指为滑雪运动训练比赛而设置的所有索道的总长度。</string>
+   <string name="help_y10_7">跳台：指专为跳台滑雪运动训练比赛而设置的跳台。</string>
+   <string name="help_y10_8">灯光设备：指在滑雪场安装的固定的专用灯光设备。</string>
+</resources>

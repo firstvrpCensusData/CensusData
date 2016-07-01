@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--a-->
+    <string name="basic_situation">基本情况</string>
+    <string name="company_name">单位名称：</string>
+    <string name="head_of_unit">单位负责人：</string>
+    <string name="office_tel">单位电话：</string>
+    <string name="company_administration">主管部门：</string>
+    <string name="unit_address">单位地址：</string>
+    <string name="street_select">点击选择街道</string>
+    <string name="inline_autocomplete">地址补充完整至门牌号</string>
+    <string name="administrative_area_code">统计用区划代码和城乡划分代码：</string>
+    <string name="autocomple">自动补全</string>
+    <!--b-->
+    <string name="where_the_system">所在系统</string>
+    <string name="sports_system">体育系统</string>
+    <string name="cultural_system">文化系统</string>
+    <string name="higher_learning">高等院校</string>
+    <string name="secondary">中专中技</string>
+    <string name="primary_and_secondary">中小学</string>
+    <string name="other_educational_system">其他教育系统单位</string>
+    <string name="other_system">其他系统</string>
+
+    <string name="administrative_relationship">隶属关系</string>
+    <string name="central">中央</string>
+    <string name="province">省/自治区/直辖市</string>
+    <string name="city">地区/市/州/盟</string>
+    <string name="county">县/市/旗</string>
+    <string name="street">街道/镇/乡</string>
+    <string name="neighbourhood_committee">居民/村民委员会</string>
+    <string name="other">其他</string>
+    
+    <string name="unit_type">单位类型</string>
+    <string name="administrative_organs">行政机关</string>
+    <string name="institutions">事业单位</string>
+    <string name="enterprise">企业</string>
+    <string name="otherunits">其他单位</string>
+
+    <string name="status_of_registration">企业登记注册类型</string>
+    <string name="state_owned_enterprises">国有企业</string>
+    <string name="collective_enterprise">集体企业</string>
+    <string name="joint_equity_cooperative_enterprises">股份合作企业</string>
+    <string name="consortium">联营企业</string>
+    <string name="limited_liability_company">有限责任公司</string>
+    <string name="joint_stock_company">股份有限公司</string>
+    <string name="private_enterprise">私营企业</string>
+    <string name="other_domestic_funded_enterprises">其他内资企业</string>
+    <string name="enterprises_funded_by_entrepreneurs">港、澳、台商投资企业</string>
+    <string name="foreign_investment_enterprise">外商投资企业</string>
+
+    <!--c-->
+<string name="receptionist_asked">单位2015年接待情况</string>
+    <string name="sports_team">所接待运动队的类型</string>
+    <string name="no_sports_team">未接待过运动队</string>
+    <string name="sparetime_sports_team">业余运动队</string>
+    <string name="specialized_sports_team">专业运动队、职业俱乐部运动队</string>
+    <string name="total_sport_person">累计接待人次</string>
+    <string name="nothing">无</string>
+    <string name="ten_person">10 人以下</string>
+    <string name="thirty_person">11-30 人</string>
+    <string name="fifty_person">31-50 人</string>
+    <string name="hundred_person">50-100 人</string>
+    <string name="hundred_one_person">101 人以上</string>
+    <string name="total_sport_day">累计接待天数</string>
+    <string name="ten_day">10 天以下</string>
+    <string name="twenty_day">11-20 天</string>
+    <string name="thirty_day">21-30 天</string>
+    <string name="fifty_day">31-50 天</string>
+    <string name="hunderd_day">50-100 天</string>
+    <string name="two_hundred_day">101-200 天</string>
+    <string name="two_hundred_one_day">201 天以上</string>
+
+    <string name="place_select">场地选择</string>
+
+
+
+</resources>

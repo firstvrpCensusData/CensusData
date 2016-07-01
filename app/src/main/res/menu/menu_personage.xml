@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+
+    <item android:id="@+id/menu_personage"
+        android:title="@string/home"
+        android:icon="@drawable/ico_home"
+        android:showAsAction="ifRoom|collapseActionView" />
+</menu>

@@ -1,0 +1,414 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="@dimen/margin"
+    android:weightSum="5"
+    tools:context="com.firstvrp.censusdata.PlaceTable.PlaceSpecialProjectBigb">
+
+    <LinearLayout
+        android:id="@+id/tab_basic_information_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/tableborder"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:gravity="center_vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="单位 2015 年财务状况"
+                    android:textColor="@color/exfirsttext"
+                    android:textSize="@dimen/max" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="企业单位填写此表"
+                    android:textColor="@color/exfirsttext"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/projectbigc_note1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="0"
+                android:gravity="center_vertical"
+                android:src="@drawable/note" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1"
+            android:background="@color/white">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:gravity="center_vertical"
+                android:text="资产总计（万元）:"
+                android:textColor="@color/tabletext"
+                android:textSize="@dimen/min" />
+
+            <EditText
+                android:id="@+id/assets_total"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:inputType="numberDecimal"
+                android:numeric="decimal|integer|signed"
+                android:textSize="@dimen/editMin"
+                tools:ignore="Deprecated" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1"
+            android:background="@color/white">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:gravity="center_vertical"
+                android:text="负债合计（万元）:"
+                android:textColor="@color/tabletext"
+                android:textSize="@dimen/min" />
+
+            <EditText
+                android:id="@+id/be_in_debt_total"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:inputType="numberDecimal"
+                android:numeric="decimal|integer|signed"
+                android:textSize="@dimen/editMin"
+                tools:ignore="Deprecated" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1"
+            android:background="@color/white">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:gravity="center_vertical"
+                android:text="业务收入合计（万元）:"
+                android:textColor="@color/tabletext"
+                android:textSize="@dimen/min" />
+
+            <EditText
+                android:id="@+id/income_total"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:inputType="numberDecimal"
+                android:numeric="decimal|integer|signed"
+                android:textSize="@dimen/editMin"
+                tools:ignore="Deprecated" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1"
+            android:background="@color/white">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:gravity="center_vertical"
+                android:text="业务成本合计（万元）:"
+                android:textColor="@color/tabletext"
+                android:textSize="@dimen/min" />
+
+            <EditText
+                android:id="@+id/cost_total"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:inputType="numberDecimal"
+                android:numeric="decimal|integer|signed"
+                android:textSize="@dimen/editMin"
+                tools:ignore="Deprecated" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1"
+            android:background="@color/white">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:gravity="center_vertical"
+                android:text="管理费用（万元）:"
+                android:textColor="@color/tabletext"
+                android:textSize="@dimen/min" />
+
+            <EditText
+                android:id="@+id/manage_cost"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:inputType="numberDecimal"
+                android:numeric="decimal|integer|signed"
+                android:textSize="@dimen/editMin"
+                tools:ignore="Deprecated" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1"
+            android:background="@color/white">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:gravity="center_vertical"
+                android:text="其中:能源费用（万元）:"
+                android:textColor="@color/tabletext"
+                android:textSize="@dimen/min" />
+
+            <EditText
+                android:id="@+id/energy_costa"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:inputType="numberDecimal"
+                android:numeric="decimal|integer|signed"
+                android:textSize="@dimen/editMin"
+                tools:ignore="Deprecated" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1"
+            android:background="@color/white">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:gravity="center_vertical"
+                android:text="其中:水费（万元）:"
+                android:textColor="@color/tabletext"
+                android:textSize="@dimen/min" />
+
+            <EditText
+                android:id="@+id/water_cost"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:inputType="numberDecimal"
+                android:numeric="decimal|integer|signed"
+                android:textSize="@dimen/editMin"
+                tools:ignore="Deprecated" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1"
+            android:background="@color/white">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:gravity="center_vertical"
+                android:text="其中:电费（万元）:"
+                android:textColor="@color/tabletext"
+                android:textSize="@dimen/min" />
+
+            <EditText
+                android:id="@+id/electricity_cost"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:inputType="numberDecimal"
+                android:numeric="decimal|integer|signed"
+                android:textSize="@dimen/editMin"
+                tools:ignore="Deprecated" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1"
+            android:background="@color/white">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:gravity="center_vertical"
+                android:text="其中:燃气、热力费（万元）:"
+                android:textColor="@color/tabletext"
+                android:textSize="@dimen/min" />
+
+            <EditText
+                android:id="@+id/gas_cost"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:inputType="numberDecimal"
+                android:numeric="decimal|integer|signed"
+                android:textSize="@dimen/editMin"
+                tools:ignore="Deprecated" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1"
+            android:background="@color/white">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:gravity="center_vertical"
+                android:text="税金合计（万元）:"
+                android:textColor="@color/tabletext"
+                android:textSize="@dimen/min" />
+
+            <EditText
+                android:id="@+id/taxes_tatol"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:inputType="numberDecimal"
+                android:numeric="decimal|integer|signed"
+                android:textSize="@dimen/editMin"
+                tools:ignore="Deprecated" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1"
+            android:background="@color/white">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:gravity="center_vertical"
+                android:text="营业利润（万元）"
+                android:textColor="@color/tabletext"
+                android:textSize="@dimen/min" />
+
+            <EditText
+                android:id="@+id/business_profit"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:inputType="numberDecimal"
+                android:numeric="decimal|integer|signed"
+                android:textSize="@dimen/editMin"
+                tools:ignore="Deprecated" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

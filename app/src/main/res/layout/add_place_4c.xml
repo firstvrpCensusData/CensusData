@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/tableborder"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:background="@color/white"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="场地类型:"
+                android:textColor="@color/tabletext"
+                android:textSize="16sp" />
+
+            <Spinner
+                android:id="@+id/add_place_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/spingarr" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:layout_marginTop="1dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="场地长度(米):"
+                android:textColor="@color/tabletext"
+                android:textSize="16sp" />
+
+            <EditText
+                android:paddingLeft="5dp"
+                android:inputType="numberDecimal"
+                android:numeric="decimal|integer|signed"
+                tools:ignore="Deprecated"
+                android:id="@+id/add_place_length"
+                android:layout_width="200dip"
+                android:layout_height="wrap_content"
+                android:background="@null" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:layout_marginTop="1dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="场地宽度(米):"
+
+                android:textColor="@color/tabletext"
+                android:textSize="16sp" />
+
+            <EditText
+                android:paddingLeft="5dp"
+                android:inputType="numberDecimal"
+                android:numeric="decimal|integer|signed"
+                tools:ignore="Deprecated"
+                android:id="@+id/add_place_width"
+                android:layout_width="200dip"
+                android:layout_height="wrap_content"
+                android:background="@null" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:layout_marginTop="1dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="室内净高(米):"
+                android:textColor="@color/tabletext"
+                android:textSize="16sp" />
+
+            <EditText
+                android:paddingLeft="5dp"
+                android:inputType="numberDecimal"
+                android:numeric="decimal|integer|signed"
+                tools:ignore="Deprecated"
+                android:id="@+id/add_indoor_high"
+                android:layout_width="200dip"
+                android:layout_height="wrap_content"
+                android:background="@null" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:layout_marginTop="1dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="场地数量(片):"
+                android:textColor="@color/tabletext"
+                android:textSize="16sp" />
+
+            <EditText
+                android:inputType="number"
+                android:paddingLeft="5dp"
+                android:numeric="integer"
+                tools:ignore="Deprecated"
+                android:id="@+id/add_place_quantity"
+                android:layout_width="200dip"
+                android:layout_height="wrap_content"
+                android:background="@null" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:layout_marginTop="1dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="场地面层:"
+                android:textColor="@color/tabletext"
+                android:textSize="16sp" />
+
+            <com.firstvrp.censusdata.CustomTools.CustomNestRadioGroup
+                android:id="@+id/add_place_face"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/add_place_wood_flooring"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="木地板"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/add_place_synthetic_material"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="合成材料"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/add_place_cement"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="水泥"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/add_place_ice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="冰"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/add_place_soil"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="沙土"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/add_place_other"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="其他"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </com.firstvrp.censusdata.CustomTools.CustomNestRadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:background="@color/white"
+            android:gravity="center"
+            android:layout_marginTop="1dp">
+
+            <Button
+                android:id="@+id/add_ok"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_btnn"
+                android:text="确认"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/add_no"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_btnn"
+                android:text="取消"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="help_y9_1">航空运动机场（代码 73）：指供飞机、滑翔、跳伞、热气球、航模等运动训练比赛健身等使用的室外体育场地。以租用、借用等形式使用部队机场的单位不统计场地情况，军用机场兼作航空运动机场或为比赛而临时占用的场地不作为航空运动机场统计。</string>
+    <string name="help_y9_2">跑道长度：指航空运动机场跑道总长度。</string>
+    <string name="help_y9_3">跑道宽度：指航空运动机场跑道的宽度。</string>
+    <string name="help_y9_4">跑道面层：指航空运动机场铺设跑道的面层材质。</string>
+</resources>
