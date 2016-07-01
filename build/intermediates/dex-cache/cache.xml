@@ -2,39 +2,11 @@
 <items version="2" >
 
     <item
-        jar="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.0.0/jars/classes.jar"
+        jar="/Users/chenyuan/Documents/CensusData/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.0.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
-        <dex dex="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/pre-dexed/debug/classes-51776565c8680d8da2a2b40040cd2e08d1a8a799.jar" />
-    </item>
-    <item
-        jar="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
-        <dex dex="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/pre-dexed/debug/classes-320b820e7dd0ec0fd22313d7f41ea6107e7acc39.jar" />
-    </item>
-    <item
-        jar="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="41b3870cbe5fa546d8095b5b89d42cb69f3dd175">
-        <dex dex="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/pre-dexed/debug/classes-b836f3992a302ba7cbcd8298f1ca6d96900cca29.jar" />
-    </item>
-    <item
-        jar="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="4cd0b093824b3228fffc21ea369b98d0b1db6566">
-        <dex dex="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/pre-dexed/debug/classes-25a61df497c8d8192defec4df4ccecf388196b45.jar" />
-    </item>
-    <item
-        jar="/Users/chenyuan/SDK/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
-        <dex dex="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-fd445dea50707956c93e387553de37a038b9f313.jar" />
+        sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
+        <dex dex="/Users/chenyuan/Documents/CensusData/app/build/intermediates/pre-dexed/debug/classes-9af7853d629d9be40871238a2c4f0d8199feb7f7.jar" />
     </item>
     <item
         jar="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.0.0/jars/classes.jar"
@@ -44,32 +16,32 @@
         <dex dex="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/pre-dexed/debug/classes-c6a9cfd7a825fd8bd76c893c6a0c88890d263336.jar" />
     </item>
     <item
-        jar="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.0.0/jars/classes.jar"
+        jar="/Users/chenyuan/AndroidStudioProjects/CensusData/app/libs/gson-2.4.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
-        <dex dex="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/pre-dexed/debug/classes-975c636a4df101128b59d5bf0d531a598957f459.jar" />
+        sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
+        <dex dex="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/pre-dexed/debug/gson-2.4-6baf5bcad63c3882744c219b167d02fe17881029.jar" />
     </item>
     <item
-        jar="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.0.0/jars/classes.jar"
+        jar="/Users/chenyuan/Documents/CensusData/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
-        <dex dex="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/pre-dexed/debug/classes-d1286db427d681891a30a550c731c01dffbdcec7.jar" />
+        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
+        <dex dex="/Users/chenyuan/Documents/CensusData/app/build/intermediates/pre-dexed/debug/classes-75944b019d5d065f48fc44ce3f4cb4cbaf14aec6.jar" />
     </item>
     <item
-        jar="/Users/chenyuan/AndroidStudioProjects/CensusData/app/libs/locSDK_6.23.jar"
+        jar="/Users/chenyuan/Documents/CensusData/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.0.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="6cff92d8446c1ac178a1440b926ff2a937c02b81">
-        <dex dex="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/pre-dexed/debug/locSDK_6.23-93a132f4aba470705d4263c94b54c8092515e4d8.jar" />
+        sha1="4cd0b093824b3228fffc21ea369b98d0b1db6566">
+        <dex dex="/Users/chenyuan/Documents/CensusData/app/build/intermediates/pre-dexed/debug/classes-67f092eae004db60a1d99784f6f8bc6a41456515.jar" />
     </item>
     <item
-        jar="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.0.0/jars/classes.jar"
+        jar="/Users/chenyuan/Documents/CensusData/app/build/intermediates/exploded-aar/com.github.dmytrodanylyk.circular-progress-button/library/1.1.3/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
-        <dex dex="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/pre-dexed/debug/classes-46b6c4ad0ad21dc22607258e110789a113a871c9.jar" />
+        sha1="8a6ed980c74ad35b2dfc4e1daf97bfc0eea5d7c9">
+        <dex dex="/Users/chenyuan/Documents/CensusData/app/build/intermediates/pre-dexed/debug/classes-36b64eea1d0a7f1f0ce0933c8a8d7f7a29d3afee.jar" />
     </item>
     <item
         jar="/Users/chenyuan/AndroidStudioProjects/CensusData/app/libs/baidumapapi.jar"
@@ -79,6 +51,83 @@
         <dex dex="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/pre-dexed/debug/baidumapapi-5fb956ee64a01bf67953e065ccb1ed7e7e33de01.jar" />
     </item>
     <item
+        jar="/Users/chenyuan/Documents/CensusData/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
+        <dex dex="/Users/chenyuan/Documents/CensusData/app/build/intermediates/pre-dexed/debug/classes-5a833b9fe6f36f1fffe931617e5184a23b39177a.jar" />
+    </item>
+    <item
+        jar="/Users/chenyuan/SDK/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-fd445dea50707956c93e387553de37a038b9f313.jar" />
+    </item>
+    <item
+        jar="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4cd0b093824b3228fffc21ea369b98d0b1db6566">
+        <dex dex="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/pre-dexed/debug/classes-25a61df497c8d8192defec4df4ccecf388196b45.jar" />
+    </item>
+    <item
+        jar="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
+        <dex dex="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/pre-dexed/debug/classes-bfb0da2d08eaaa0b8cc95321cf1e4366f42504d7.jar" />
+    </item>
+    <item
+        jar="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="055783146ba9654a725442563be78cad303aad1f">
+        <dex dex="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/pre-dexed/debug/classes-17687304c58731f10b89ff07e07d021f724ae591.jar" />
+    </item>
+    <item
+        jar="/Users/chenyuan/Documents/CensusData/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/Users/chenyuan/Documents/CensusData/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-0ecac295b151deff73ca7a1024f5d9b38415ae16.jar" />
+    </item>
+    <item
+        jar="/Users/chenyuan/Documents/CensusData/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
+        <dex dex="/Users/chenyuan/Documents/CensusData/app/build/intermediates/pre-dexed/debug/classes-7b097bdc0651403686bcb3e72d5d907504399ca5.jar" />
+    </item>
+    <item
+        jar="/Users/chenyuan/Documents/CensusData/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
+        <dex dex="/Users/chenyuan/Documents/CensusData/app/build/intermediates/pre-dexed/debug/classes-1f6e3e33e88a36c9678aedc477dfd4ad3b55c65c.jar" />
+    </item>
+    <item
+        jar="/Users/chenyuan/Documents/CensusData/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/Users/chenyuan/Documents/CensusData/app/build/intermediates/pre-dexed/debug/classes-3a5faf8eb46c8d6c6d39960d08e675ee5bca0d08.jar" />
+    </item>
+    <item
+        jar="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9224bc4c54ba95147c7eabd874573763c07cb6be">
+        <dex dex="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/pre-dexed/debug/classes-fab9fdaa7c132e70696f241a95644e8a8608fd18.jar" />
+    </item>
+    <item
+        jar="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
+        <dex dex="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/pre-dexed/debug/classes-2a63424ef90179115d0e6ae517950e6d19f9a547.jar" />
+    </item>
+    <item
         jar="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/exploded-aar/com.github.dmytrodanylyk.circular-progress-button/library/1.1.3/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
@@ -86,18 +135,25 @@
         <dex dex="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/pre-dexed/debug/classes-0893effc2d57746c86ef3308bf7daea3fc117402.jar" />
     </item>
     <item
-        jar="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.0.0/jars/classes.jar"
+        jar="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.0.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
-        <dex dex="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/pre-dexed/debug/classes-db1e18fd0144178ac4c56b8d7c0d3aa6aca6a964.jar" />
+        sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
+        <dex dex="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/pre-dexed/debug/classes-589351be23c734f79fa8fabda11cd61e7e873c19.jar" />
     </item>
     <item
-        jar="/Users/chenyuan/AndroidStudioProjects/CensusData/app/libs/android-async-http-1.4.6.jar"
+        jar="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.0.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="a845a88238be0b5be9d238652c1bc0605ef91f52">
-        <dex dex="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/pre-dexed/debug/android-async-http-1.4.6-97374ef4419a2b9773d718e917c397bdaa51c3ce.jar" />
+        sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
+        <dex dex="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/pre-dexed/debug/classes-46b6c4ad0ad21dc22607258e110789a113a871c9.jar" />
+    </item>
+    <item
+        jar="/Users/chenyuan/Documents/CensusData/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3c0b099f9de16b265ecd6122fcb603e7d0d29f90">
+        <dex dex="/Users/chenyuan/Documents/CensusData/app/build/intermediates/pre-dexed/debug/classes-65b7da26cd001d040b5d32468e5603343647e4ad.jar" />
     </item>
     <item
         jar="/Users/chenyuan/AndroidStudioProjects/CensusData/app/libs/afinal_0.5_bin.jar"
@@ -114,11 +170,32 @@
         <dex dex="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/pre-dexed/debug/classes-019349b196ce90bee2f4dfbec5a5e381440aab38.jar" />
     </item>
     <item
-        jar="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.0.0/jars/classes.jar"
+        jar="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="9224bc4c54ba95147c7eabd874573763c07cb6be">
-        <dex dex="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/pre-dexed/debug/classes-fab9fdaa7c132e70696f241a95644e8a8608fd18.jar" />
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/pre-dexed/debug/classes-320b820e7dd0ec0fd22313d7f41ea6107e7acc39.jar" />
+    </item>
+    <item
+        jar="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
+        <dex dex="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/pre-dexed/debug/classes-d1286db427d681891a30a550c731c01dffbdcec7.jar" />
+    </item>
+    <item
+        jar="/Users/chenyuan/AndroidStudioProjects/CensusData/app/libs/locSDK_6.23.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6cff92d8446c1ac178a1440b926ff2a937c02b81">
+        <dex dex="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/pre-dexed/debug/locSDK_6.23-93a132f4aba470705d4263c94b54c8092515e4d8.jar" />
+    </item>
+    <item
+        jar="/Users/chenyuan/Documents/CensusData/app/libs/gson-2.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
+        <dex dex="/Users/chenyuan/Documents/CensusData/app/build/intermediates/pre-dexed/debug/gson-2.4-4eb0da26c5d945b31e5ee4cc0f41212108574233.jar" />
     </item>
     <item
         jar="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/jars/classes.jar"
@@ -128,60 +205,32 @@
         <dex dex="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/pre-dexed/debug/classes-8995c142e0838cbf66f4402e408be81719beca9a.jar" />
     </item>
     <item
-        jar="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.0.0/jars/classes.jar"
+        jar="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.0.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="7ff613bf78ab057293892fdbd4169eda899c89b9">
-        <dex dex="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/pre-dexed/debug/classes-a7c4a145d0a13909de7d5ab6d8f42bdcb4080d70.jar" />
+        sha1="41b3870cbe5fa546d8095b5b89d42cb69f3dd175">
+        <dex dex="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/pre-dexed/debug/classes-b836f3992a302ba7cbcd8298f1ca6d96900cca29.jar" />
     </item>
     <item
-        jar="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/libs/internal_impl-22.0.0.jar"
+        jar="/Users/chenyuan/AndroidStudioProjects/CensusData/app/libs/android-async-http-1.4.6.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
-        <dex dex="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-95a28b7b7afbb551f468861b0e90641612239d26.jar" />
+        sha1="a845a88238be0b5be9d238652c1bc0605ef91f52">
+        <dex dex="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/pre-dexed/debug/android-async-http-1.4.6-97374ef4419a2b9773d718e917c397bdaa51c3ce.jar" />
     </item>
     <item
-        jar="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.0.0/jars/classes.jar"
+        jar="/Users/chenyuan/Documents/CensusData/app/libs/android-async-http-1.4.6.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
-        <dex dex="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/pre-dexed/debug/classes-589351be23c734f79fa8fabda11cd61e7e873c19.jar" />
+        sha1="a845a88238be0b5be9d238652c1bc0605ef91f52">
+        <dex dex="/Users/chenyuan/Documents/CensusData/app/build/intermediates/pre-dexed/debug/android-async-http-1.4.6-e76e58c553ba5d30f979c5fb329f21e7ee38f419.jar" />
     </item>
     <item
-        jar="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.0.0/jars/classes.jar"
+        jar="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.0.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="055783146ba9654a725442563be78cad303aad1f">
-        <dex dex="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/pre-dexed/debug/classes-17687304c58731f10b89ff07e07d021f724ae591.jar" />
-    </item>
-    <item
-        jar="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
-        <dex dex="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/pre-dexed/debug/classes-2a63424ef90179115d0e6ae517950e6d19f9a547.jar" />
-    </item>
-    <item
-        jar="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="1c5a76debf0c2857ccad422c4a80ed785982f8df">
-        <dex dex="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/pre-dexed/debug/classes-102332c6435dcc25c1efdbe4ff477d58c76c2717.jar" />
-    </item>
-    <item
-        jar="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
-        <dex dex="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/pre-dexed/debug/classes-a2557473c61ab16b905dfae07eaae6d98b3fb0ac.jar" />
-    </item>
-    <item
-        jar="/Users/chenyuan/AndroidStudioProjects/CensusData/app/libs/gson-2.4.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
-        <dex dex="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/pre-dexed/debug/gson-2.4-6baf5bcad63c3882744c219b167d02fe17881029.jar" />
+        sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
+        <dex dex="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/pre-dexed/debug/classes-51776565c8680d8da2a2b40040cd2e08d1a8a799.jar" />
     </item>
     <item
         jar="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/exploded-aar/CensusData/actionbarsherlock/unspecified/jars/classes.jar"
@@ -191,6 +240,27 @@
         <dex dex="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/pre-dexed/debug/classes-c4fca1f63d8a512aa6681296ea7a9c565c7e4bf8.jar" />
     </item>
     <item
+        jar="/Users/chenyuan/Documents/CensusData/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
+        <dex dex="/Users/chenyuan/Documents/CensusData/app/build/intermediates/pre-dexed/debug/classes-fa981ef6cf3800b880cd700e4d46bf2540bf2c62.jar" />
+    </item>
+    <item
+        jar="/Users/chenyuan/Documents/CensusData/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
+        <dex dex="/Users/chenyuan/Documents/CensusData/app/build/intermediates/pre-dexed/debug/classes-40ee0b068ed7d0c1ccbb7b94c61e66b428ec2ee1.jar" />
+    </item>
+    <item
+        jar="/Users/chenyuan/Documents/CensusData/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
+        <dex dex="/Users/chenyuan/Documents/CensusData/app/build/intermediates/pre-dexed/debug/classes-351591be09176ea71410221c3cbdb978dfac4bcf.jar" />
+    </item>
+    <item
         jar="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.0.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
@@ -198,11 +268,137 @@
         <dex dex="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/pre-dexed/debug/classes-08dc5719c7c847c7195c660c1236068e2db10923.jar" />
     </item>
     <item
-        jar="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.0.0/jars/classes.jar"
+        jar="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-95a28b7b7afbb551f468861b0e90641612239d26.jar" />
+    </item>
+    <item
+        jar="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
+        <dex dex="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/pre-dexed/debug/classes-a2557473c61ab16b905dfae07eaae6d98b3fb0ac.jar" />
+    </item>
+    <item
+        jar="/Users/chenyuan/Documents/CensusData/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="41b3870cbe5fa546d8095b5b89d42cb69f3dd175">
+        <dex dex="/Users/chenyuan/Documents/CensusData/app/build/intermediates/pre-dexed/debug/classes-40e3a5a9c2ed2b408aa2d037f3c01addfd6273d4.jar" />
+    </item>
+    <item
+        jar="/Users/chenyuan/Documents/CensusData/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9224bc4c54ba95147c7eabd874573763c07cb6be">
+        <dex dex="/Users/chenyuan/Documents/CensusData/app/build/intermediates/pre-dexed/debug/classes-0930bfd516566626ec02a0a3ccba37f5da6c70ab.jar" />
+    </item>
+    <item
+        jar="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1c5a76debf0c2857ccad422c4a80ed785982f8df">
+        <dex dex="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/pre-dexed/debug/classes-102332c6435dcc25c1efdbe4ff477d58c76c2717.jar" />
+    </item>
+    <item
+        jar="/Users/chenyuan/Documents/CensusData/app/libs/afinal_0.5_bin.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="89729e3bc7f76890363b10e1e0dc5e57964c7807">
+        <dex dex="/Users/chenyuan/Documents/CensusData/app/build/intermediates/pre-dexed/debug/afinal_0.5_bin-33806879271b1a6cbb74f0b1a8174eeab17dbb9a.jar" />
+    </item>
+    <item
+        jar="/Users/chenyuan/Documents/CensusData/app/build/intermediates/exploded-aar/CensusData/actionbarsherlock/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8b24cb6d5eb25da23eeeb9c356e8769ef520d180">
+        <dex dex="/Users/chenyuan/Documents/CensusData/app/build/intermediates/pre-dexed/debug/classes-3cba8b3cb204c93b6ac748e2d993149723b2e2a6.jar" />
+    </item>
+    <item
+        jar="/Users/chenyuan/Documents/CensusData/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7ff613bf78ab057293892fdbd4169eda899c89b9">
+        <dex dex="/Users/chenyuan/Documents/CensusData/app/build/intermediates/pre-dexed/debug/classes-f19c8daa1828f195e97f82f0f467566a6858fbc2.jar" />
+    </item>
+    <item
+        jar="/Users/chenyuan/Documents/CensusData/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
+        <dex dex="/Users/chenyuan/Documents/CensusData/app/build/intermediates/pre-dexed/debug/classes-78b255353deb9170f093c1c24d9333667a146211.jar" />
+    </item>
+    <item
+        jar="/Users/chenyuan/Documents/CensusData/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c976518693e89ad44fbfccfc654941eaec198d08">
+        <dex dex="/Users/chenyuan/Documents/CensusData/app/build/intermediates/pre-dexed/debug/classes-0ace3f9f8bb924934af9611ab3d701bfad13eb1b.jar" />
+    </item>
+    <item
+        jar="/Users/chenyuan/Documents/CensusData/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
+        <dex dex="/Users/chenyuan/Documents/CensusData/app/build/intermediates/pre-dexed/debug/classes-a2c08a81273ac76d3c505f4a4c0f3e963e565979.jar" />
+    </item>
+    <item
+        jar="/Users/chenyuan/Documents/CensusData/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.0.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
-        <dex dex="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/pre-dexed/debug/classes-bfb0da2d08eaaa0b8cc95321cf1e4366f42504d7.jar" />
+        <dex dex="/Users/chenyuan/Documents/CensusData/app/build/intermediates/pre-dexed/debug/classes-254ccfc79828b0b1830b5f47a4a4afe6664a023c.jar" />
+    </item>
+    <item
+        jar="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
+        <dex dex="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/pre-dexed/debug/classes-975c636a4df101128b59d5bf0d531a598957f459.jar" />
+    </item>
+    <item
+        jar="/Users/chenyuan/Documents/CensusData/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="055783146ba9654a725442563be78cad303aad1f">
+        <dex dex="/Users/chenyuan/Documents/CensusData/app/build/intermediates/pre-dexed/debug/classes-d2d8a2617950b1e120c0dd08c95d59b6ea5c67cf.jar" />
+    </item>
+    <item
+        jar="/Users/chenyuan/Documents/CensusData/app/libs/baidumapapi.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e3726b18e0e0564c074fcfd839faa12b3e64dfbc">
+        <dex dex="/Users/chenyuan/Documents/CensusData/app/build/intermediates/pre-dexed/debug/baidumapapi-0f09f4b943e3b3be79d3ad063f6c5125e55d78b3.jar" />
+    </item>
+    <item
+        jar="/Users/chenyuan/Documents/CensusData/app/libs/locSDK_6.23.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6cff92d8446c1ac178a1440b926ff2a937c02b81">
+        <dex dex="/Users/chenyuan/Documents/CensusData/app/build/intermediates/pre-dexed/debug/locSDK_6.23-7bcb998fea987c29c8cc4ff84942290f61ae88e7.jar" />
+    </item>
+    <item
+        jar="/Users/chenyuan/Documents/CensusData/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1c5a76debf0c2857ccad422c4a80ed785982f8df">
+        <dex dex="/Users/chenyuan/Documents/CensusData/app/build/intermediates/pre-dexed/debug/classes-2fff79327e6b0d1b39911d1a1ed7976dfbd4530c.jar" />
+    </item>
+    <item
+        jar="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7ff613bf78ab057293892fdbd4169eda899c89b9">
+        <dex dex="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/pre-dexed/debug/classes-a7c4a145d0a13909de7d5ab6d8f42bdcb4080d70.jar" />
+    </item>
+    <item
+        jar="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
+        <dex dex="/Users/chenyuan/AndroidStudioProjects/CensusData/app/build/intermediates/pre-dexed/debug/classes-db1e18fd0144178ac4c56b8d7c0d3aa6aca6a964.jar" />
     </item>
 
 </items>
