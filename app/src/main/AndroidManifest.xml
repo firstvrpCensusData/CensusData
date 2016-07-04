@@ -71,11 +71,6 @@
             android:label="@string/title_activity_my_tab_action_bar"
             android:windowSoftInputMode="adjustUnspecified|stateHidden" />
         <activity
-            android:name=".Main.MainleaderActivity"
-            android:configChanges="orientation|screenSize|keyboardHidden"
-            android:label="@string/title_activity_my_tab_action_bar"
-            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
-        <activity
             android:name=".LoginActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:label="@string/title_activity_login"
