@@ -71,9 +71,32 @@ public class CheckPendingFragment extends Fragment {
     List<UnitsInfoEntity> unitsInfoEntities;
 
     private void getCheckedUnitsInfoList() {
-        String url;
+        String url=null;
         if (map != null) {
-            url = String.format(getString(R.string.url_get_unitsinfo), 1, 1000, "", "", map.get("userID"), 0);
+            int user_type  = Integer.parseInt(map.get("userType"));
+            Log.i("user_type",user_type+"");
+            switch (user_type){
+                case 1:
+                    //普查员
+                    url = String.format(getString(R.string.url_get_unitsinfo), 1, 1000, "", "", map.get("userID"), 0);
+                    break;
+                case 2:
+                    //街道管理员
+                    url = String.format(getString(R.string.url_get_unitsinfo), 1, 1000, "", "", "", 0);
+                    break;
+                case 3:
+                    //区级管理员
+                    url = String.format(getString(R.string.url_get_unitsinfo), 1, 1000, "", "", "", 0);
+                    break;
+                case 4:
+                    //市级管理员
+                    url = String.format(getString(R.string.url_get_unitsinfo), 1, 1000, "", "", "", 0);
+                    break;
+                default:
+                    break;
+            }
+
+            // url = String.format(getString(R.string.url_get_unitsinfo), 1, 1000, "", "", map.get("userID"), 0);
         } else {
             Intent intent = new Intent(getActivity(), LoginActivity.class);
             startActivity(intent);
