@@ -155,7 +155,6 @@ public class CheckPendingFragment extends Fragment {
 
     private void getChildData() {
         String url;
-
         if (map != null) {
             url = String.format(getString(R.string.url_get_placeinfo), 1, 1000, "", "", "", 0, map.get("userID"));
         } else {
