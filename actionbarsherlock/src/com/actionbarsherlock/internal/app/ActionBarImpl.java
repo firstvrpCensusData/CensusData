@@ -410,10 +410,8 @@ public class ActionBarImpl extends ActionBar {
             mode.invalidate();
             mContextView.initForMode(mode);
             animateToMode(true);
-            if (mSplitView != null && mContextDisplayMode == CONTEXT_DISPLAY_SPLIT) {
-                // TODO animate this
+            if (mSplitView != null && mContextDisplayMode == CONTEXT_DISPLAY_SPLIT)
                 mSplitView.setVisibility(View.VISIBLE);
-            }
             mContextView.sendAccessibilityEvent(AccessibilityEvent.TYPE_WINDOW_STATE_CHANGED);
             mActionMode = mode;
             return mode;

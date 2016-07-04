@@ -87,8 +87,7 @@ public class MainActionActivity extends SherlockActivity {
     View.OnClickListener l = new View.OnClickListener() {
 
         public void onClick(View arg0) {
-            // TODO Auto-generated method stub
-            switch (arg0.getId()) {
+             switch (arg0.getId()) {
                 case R.id.unfinished_framelayout:
                     tabHost.setCurrentTabByTag("1");
                     tab_unfinished_click.setImageResource(R.drawable.tab_home_click);

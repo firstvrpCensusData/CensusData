@@ -109,19 +109,18 @@ class SuggestionsAdapter extends ResourceCursorAdapter implements OnClickListene
 
         // mStartSpinnerRunnable = new Runnable() {
         // public void run() {
-        // // mSearchView.setWorking(true); // TODO:
+        // // mSearchView.setWorking(true); //
         // }
         // };
         //
         // mStopSpinnerRunnable = new Runnable() {
         // public void run() {
-        // // mSearchView.setWorking(false); // TODO:
+        // // mSearchView.setWorking(false); //
         // }
         // };
 
         // delay 500ms when deleting
-//  TODO  getFilter().setDelayer(new Filter.Delayer() {
-//
+ //
 //      private int mPreviousLength = 0;
 //
 //      public long getPostingDelay(CharSequence constraint) {
@@ -182,7 +181,7 @@ class SuggestionsAdapter extends ResourceCursorAdapter implements OnClickListene
                 || mSearchView.getWindowVisibility() != View.VISIBLE) {
             return null;
         }
-        //mSearchView.getWindow().getDecorView().post(mStartSpinnerRunnable); // TODO:
+        //mSearchView.getWindow().getDecorView().post(mStartSpinnerRunnable); //
         try {
             cursor = getSuggestions(query, QUERY_LIMIT);
             // trigger fill window so the spinner stays up until the results are copied over and
@@ -196,7 +195,7 @@ class SuggestionsAdapter extends ResourceCursorAdapter implements OnClickListene
         }
         // If cursor is null or an exception was thrown, stop the spinner and return null.
         // changeCursor doesn't get called if cursor is null
-        // mSearchView.getWindow().getDecorView().post(mStopSpinnerRunnable); // TODO:
+        // mSearchView.getWindow().getDecorView().post(mStopSpinnerRunnable); //
         return null;
     }
 
@@ -213,8 +212,8 @@ class SuggestionsAdapter extends ResourceCursorAdapter implements OnClickListene
         Uri.Builder uriBuilder = new Uri.Builder()
                 .scheme(ContentResolver.SCHEME_CONTENT)
                 .authority(authority)
-                .query("")  // TODO: Remove, workaround for a bug in Uri.writeToParcel()
-                .fragment("");  // TODO: Remove, workaround for a bug in Uri.writeToParcel()
+                .query("")
+                .fragment("");
 
         // if content path provided, insert it now
         final String contentPath = mSearchable.getSuggestPath();
@@ -256,7 +255,7 @@ class SuggestionsAdapter extends ResourceCursorAdapter implements OnClickListene
         if (DBG) Log.d(LOG_TAG, "notifyDataSetChanged");
         super.notifyDataSetChanged();
 
-        // mSearchView.onDataSetChanged(); // TODO:
+        // mSearchView.onDataSetChanged(); //
 
         updateSpinnerState(getCursor());
     }
@@ -280,12 +279,10 @@ class SuggestionsAdapter extends ResourceCursorAdapter implements OnClickListene
         // Check if the Cursor indicates that the query is not complete and show the spinner
         if (extras != null
                 && extras.getBoolean(SearchManager.CURSOR_EXTRA_KEY_IN_PROGRESS)) {
-            // mSearchView.getWindow().getDecorView().post(mStartSpinnerRunnable); // TODO:
-            return;
+             return;
         }
         // If cursor is null or is done, stop the spinner
-        // mSearchView.getWindow().getDecorView().post(mStopSpinnerRunnable); // TODO:
-    }
+     }
 
     /**
      * Cache columns.

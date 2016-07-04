@@ -222,11 +222,9 @@ public class BasicInformationFragmentA extends Fragment implements IBtnCallListe
 
     @Override
     public void onAttach(Activity activity) {
-        // TODO Auto-generated method stub
         try {
             mbtnListener = (IBtnCallListener) activity;
         } catch (Exception e) {
-            // TODO: handle exception
             throw new ClassCastException(activity.toString() + "must implement mbtnListener");
         }
         super.onAttach(activity);

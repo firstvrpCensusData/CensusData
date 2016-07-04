@@ -78,7 +78,7 @@ public class CompanyInfomationA extends Fragment implements View.OnClickListener
 
         iv_activity_unit_info_note = (ImageView) view.findViewById(R.id.iv_activity_unit_info_note);
 
-        basic_info_place_organization.setText(CompanyInfomationActivity.INSTENT.unitsInfoEntity.getOrg_code().isEmpty() ? "0" : CompanyInfomationActivity.INSTENT.unitsInfoEntity.getOrg_code());
+        basic_info_place_organization.setText(CompanyInfomationActivity.INSTENT.unitsInfoEntity.getOrg_code() == null ? "0" : CompanyInfomationActivity.INSTENT.unitsInfoEntity.getOrg_code());
 
         iv_activity_unit_info_note.setOnClickListener(this);
         tv_company_infomation_access_select.setOnClickListener(this);
@@ -88,12 +88,14 @@ public class CompanyInfomationA extends Fragment implements View.OnClickListener
             et_company_infomation_name.setText(application.getUnitsInfoEntity().getUnits_name());
             et_company_infomation_head_of_unit.setText(application.getUnitsInfoEntity().getUnits_principal());
 
-            String[] telStr = application.getUnitsInfoEntity().getUnits_tel().split("-");
-            if (telStr.length > 1) {
-                et_company_infomation_office_tel.setText(telStr[0]);
-                et_company_infomation_zhuan.setText(telStr[1]);
-            } else {
-                et_company_infomation_office_tel.setText(telStr[0]);
+            if (application.getUnitsInfoEntity().getUnits_tel() != null) {
+                String[] telStr = application.getUnitsInfoEntity().getUnits_tel().split("-");
+                if (telStr.length > 1) {
+                    et_company_infomation_office_tel.setText(telStr[0]);
+                    et_company_infomation_zhuan.setText(telStr[1]);
+                } else {
+                    et_company_infomation_office_tel.setText(telStr[0]);
+                }
             }
             et_company_infomation_administration.setText(application.getUnitsInfoEntity().getDeptname());
 

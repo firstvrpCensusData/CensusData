@@ -70,8 +70,7 @@ public class ActionMenuItemView extends LinearLayout
     }
 
     public ActionMenuItemView(Context context, AttributeSet attrs, int defStyle) {
-        //TODO super(context, attrs, defStyle);
-        super(context, attrs);
+         super(context, attrs);
         mAllowTextWithIcon = getResources_getBoolean(context,
                 R.bool.abs__config_allowActionMenuItemTextWithIcon);
         TypedArray a = context.obtainStyledAttributes(attrs,
@@ -156,12 +155,10 @@ public class ActionMenuItemView extends LinearLayout
     }
 
     public void setCheckable(boolean checkable) {
-        // TODO Support checkable action items
-    }
+     }
 
     public void setChecked(boolean checked) {
-        // TODO Support checkable action items
-    }
+     }
 
     public void setExpandedFormat(boolean expandedFormat) {
         if (mExpandedFormat != expandedFormat) {

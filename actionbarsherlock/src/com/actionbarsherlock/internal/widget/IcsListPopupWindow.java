@@ -559,8 +559,7 @@ public class IcsListPopupWindow {
         public DropDownListView(Context context, boolean hijackFocus) {
             super(context, null, /*com.android.internal.*/R.attr.dropDownListViewStyle);
             mHijackFocus = hijackFocus;
-            // TODO: Add an API to control this
-            setCacheColorHint(0); // Transparent, since the background drawable could be anything.
+             setCacheColorHint(0); // Transparent, since the background drawable could be anything.
         }
 
         //XXX @Override

@@ -113,7 +113,7 @@ public final class MenuItemImpl implements MenuItem {
     MenuItemImpl(MenuBuilder menu, int group, int id, int categoryOrder, int ordering,
             CharSequence title, int showAsAction) {
 
-        /* TODO if (sPrependShortcutLabel == null) {
+        /*
             // This is instantiated from the UI thread, so no chance of sync issues
             sPrependShortcutLabel = menu.getContext().getResources().getString(
                     com.android.internal.R.string.prepend_shortcut_label);

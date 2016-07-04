@@ -40,11 +40,6 @@ public class ActionMenu implements Menu {
 
     private ArrayList<ActionMenuItem> mItems;
 
-    public ActionMenu(Context context) {
-        mContext = context;
-        mItems = new ArrayList<ActionMenuItem>();
-    }
-
     public Context getContext() {
         return mContext;
     }
@@ -99,24 +94,20 @@ public class ActionMenu implements Menu {
     }
 
     public SubMenu addSubMenu(CharSequence title) {
-        // TODO Implement submenus
         return null;
     }
 
     public SubMenu addSubMenu(int titleRes) {
-        // TODO Implement submenus
         return null;
     }
 
     public SubMenu addSubMenu(int groupId, int itemId, int order,
             CharSequence title) {
-        // TODO Implement submenus
-        return null;
+         return null;
     }
 
     public SubMenu addSubMenu(int groupId, int itemId, int order, int titleRes) {
-        // TODO Implement submenus
-        return null;
+         return null;
     }
 
     public void clear() {
@@ -159,9 +150,8 @@ public class ActionMenu implements Menu {
         return false;
     }
 
-    private ActionMenuItem findItemWithShortcut(int keyCode, KeyEvent event) {
-        // TODO Make this smarter.
-        final boolean qwerty = mIsQwerty;
+    private ActionMenuItem findItemWithShortcut(int keyCode) {
+         final boolean qwerty = mIsQwerty;
         final ArrayList<ActionMenuItem> items = mItems;
         final int itemCount = items.size();
 
@@ -177,20 +167,17 @@ public class ActionMenu implements Menu {
     }
 
     public boolean isShortcutKey(int keyCode, KeyEvent event) {
-        return findItemWithShortcut(keyCode, event) != null;
+        return findItemWithShortcut(keyCode) != null;
     }
 
     public boolean performIdentifierAction(int id, int flags) {
         final int index = findItemIndex(id);
-        if (index < 0) {
-            return false;
-        }
+        return index >= 0 && mItems.get(index).invoke();
 
-        return mItems.get(index).invoke();
     }
 
     public boolean performShortcut(int keyCode, KeyEvent event, int flags) {
-        ActionMenuItem item = findItemWithShortcut(keyCode, event);
+        ActionMenuItem item = findItemWithShortcut(keyCode);
         if (item == null) {
             return false;
         }

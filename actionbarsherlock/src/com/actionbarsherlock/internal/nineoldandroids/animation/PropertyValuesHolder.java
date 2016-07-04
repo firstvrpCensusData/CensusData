@@ -377,7 +377,7 @@ public class PropertyValuesHolder implements Cloneable {
      * @return Method the method associated with mPropertyName.
      */
     private Method getPropertyFunction(Class targetClass, String prefix, Class valueType) {
-        // TODO: faster implementation...
+
         Method returnVal = null;
         String methodName = getMethodName(prefix, mPropertyName);
         Class args[] = null;

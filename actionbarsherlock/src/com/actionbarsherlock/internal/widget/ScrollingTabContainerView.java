@@ -369,8 +369,7 @@ public class ScrollingTabContainerView extends NineHorizontalScrollView
         private View mCustomView;
 
         public TabView(Context context, AttributeSet attrs) {
-            //TODO super(context, null, R.attr.actionBarTabStyle);
-            super(context, attrs);
+             super(context, attrs);
         }
 
         public void init(ScrollingTabContainerView parent, ActionBar.Tab tab, boolean forList) {

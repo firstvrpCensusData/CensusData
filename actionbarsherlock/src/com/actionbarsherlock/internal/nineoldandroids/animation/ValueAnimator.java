@@ -85,7 +85,6 @@ public class ValueAnimator extends Animator {
      */
     long mSeekTime = -1;
 
-    // TODO: We access the following ThreadLocal variables often, some of them on every update.
     // If ThreadLocal access is significantly expensive, we may want to put all of these
     // fields into a structure sot hat we just access ThreadLocal once to get the reference
     // to that structure, then access the structure directly for each field.
@@ -588,7 +587,6 @@ public class ValueAnimator extends Animator {
             ArrayList<ValueAnimator> animations = sAnimations.get();
             ArrayList<ValueAnimator> delayedAnims = sDelayedAnims.get();
             switch (msg.what) {
-                // TODO: should we avoid sending frame message when starting if we
                 // were already running?
                 case ANIMATION_START:
                     ArrayList<ValueAnimator> pendingAnimations = sPendingAnimations.get();
