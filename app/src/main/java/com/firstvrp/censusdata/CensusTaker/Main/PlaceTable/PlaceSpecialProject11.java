@@ -1,0 +1,105 @@
+package com.firstvrp.censusdata.CensusTaker.Main.PlaceTable;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.EditText;
+
+import com.firstvrp.censusdata.CensusTaker.Main.CompanyInformation.CompanyInfomationActivity;
+import com.firstvrp.censusdata.CensusTaker.Main.CompanyInformation.IBtnCallListener;
+import com.firstvrp.censusdata.CensusTaker.Main.Dialog.HelpDialog;
+import com.firstvrp.censusdata.Entity.PlaceSpecialIndexEntity;
+import com.firstvrp.censusdata.MyApplication;
+import com.firstvrp.censusdata.R;
+import android.widget.ImageView;
+
+import Utils.PromptManager;
+
+/**
+ *
+ */
+public class PlaceSpecialProject11 extends Fragment implements IBtnCallListener, View.OnClickListener {
+private EditText project11_hole_quantity,project11_hit_digit;
+    private View view;
+    private ImageView project11_note1;
+    private MyApplication application;
+    @Override
+    public void onAttach(Activity activity) {
+        super.onAttach(activity);
+    }
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+    }
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        view =inflater.inflate(R.layout.fragment_place_special_project11, container, false);
+        project11_hole_quantity = (EditText) view.findViewById(R.id.project11_hole_quantity);
+        project11_hit_digit      = (EditText) view.findViewById(R.id.project11_hit_digit);
+
+        //帮助
+        project11_note1 = (ImageView) view.findViewById(R.id.project11_note1);
+        project11_note1.setOnClickListener(this);
+
+        application = (MyApplication) getActivity().getApplication();
+        forcingDefault();
+        return view;
+    }
+
+    private void forcingDefault() {
+        if (application.getPlaceInfoEntity()!=null&&application.getPlaceInfoEntity().getPlaceSpecialIndex()!=null)
+        {
+            PlaceSpecialIndexEntity placeSpecialIndexEntity = application.getPlaceInfoEntity().getPlaceSpecialIndex();
+            project11_hole_quantity.setText(String.valueOf(placeSpecialIndexEntity.getHole_quantity()));
+            project11_hit_digit.setText(String.valueOf(placeSpecialIndexEntity.getHit_digit()));
+        }
+    }
+
+    @Override
+    public boolean transfermsg() {
+        CompanyInfomationActivity.INSTENT.placeSpecialIndexEntity.setHole_quantity(Integer.valueOf(project11_hole_quantity.getText().toString()));
+        CompanyInfomationActivity.INSTENT.placeSpecialIndexEntity.setHole_quantity(Integer.valueOf(project11_hit_digit.getText().toString()));
+
+        CompanyInfomationActivity.INSTENT.placeInfoEntity.setPlaceSpecialIndex(CompanyInfomationActivity.INSTENT.placeSpecialIndexEntity);
+
+        if (application.getPlaceInfoEntity() == null)
+            BasicInformationFragmentB.postPlaceSpecia();
+        else {
+            CompanyInfomationActivity.INSTENT.placeInfoEntity.setId(application.getPlaceInfoEntity().getId());
+            CompanyInfomationActivity.INSTENT.placeInfoEntity.getPlaceSpecialIndex().setId(application.getPlaceInfoEntity().getPlaceSpecialIndex().getId());
+            BasicInformationFragmentB.putUpDataPlaceSpecia(); }
+
+
+        if (project11_hole_quantity.getText().toString().isEmpty()) {
+            PromptManager.showToast(getActivity(), "洞数不能为空，没有可填0");
+            return false;
+        } else if (project11_hit_digit.getText().toString().isEmpty()) {
+            PromptManager.showToast(getActivity(), "练习场打位数不能为空");
+            return false;
+        }  else return true;
+    }
+
+    @Override
+    public void onClick(View v) {
+        switch (v.getId())
+        {
+            case R.id.project11_note1:
+                StringBuilder stringBuilder = new StringBuilder();
+                if (application.getTypeID() == 76) {
+                    stringBuilder.append(getActivity().getString(R.string.help_y11_1));
+                    stringBuilder.append("\r\n\n");
+                }
+                stringBuilder.append(getActivity().getString(R.string.help_y11_2));
+                stringBuilder.append("\r\n");
+                stringBuilder.append(getActivity().getString(R.string.help_y11_3));
+                stringBuilder.append("\r\n");
+                new HelpDialog(getActivity(), stringBuilder.toString());
+                break;
+        }
+    }
+}

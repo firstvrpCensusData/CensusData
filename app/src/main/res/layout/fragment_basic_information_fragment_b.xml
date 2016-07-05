@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:padding="@dimen/margin"
     android:weightSum="21"
-    tools:context="com.firstvrp.censusdata.PlaceTable.BasicInformationFragmentB">
+    tools:context=".CensusTaker.Main.PlaceTable.BasicInformationFragmentB">
 
     <LinearLayout
         android:layout_width="match_parent"

@@ -51,33 +51,33 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".OrganizationCodeActivity"
+            android:name=".CensusTaker.Main.Activity.OrganizationCodeActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:label="@string/app_name"
             android:windowSoftInputMode="adjustUnspecified|stateHidden" />
         <activity
-            android:name=".Main.CheckPendingFragment"
+            android:name=".CensusTaker.Main.CheckPendingFragment"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:label="@string/title_activity_second"
             android:windowSoftInputMode="adjustUnspecified|stateHidden" />
         <activity
-            android:name=".Main.CheckedFragment"
+            android:name=".CensusTaker.Main.CheckedFragment"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:label="@string/title_activity_third"
             android:windowSoftInputMode="adjustUnspecified|stateHidden" />
         <activity
-            android:name=".Main.MainActionActivity"
+            android:name=".CensusTaker.Main.MainActionActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:label="@string/title_activity_my_tab_action_bar"
             android:windowSoftInputMode="adjustUnspecified|stateHidden" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".CensusTaker.Main.Activity.LoginActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:label="@string/title_activity_login"
             android:theme="@style/Theme.Sherlock.Light.NoActionBar"
             android:windowSoftInputMode="adjustUnspecified|stateHidden" />
         <activity
-            android:name=".CompanyInformation.CompanyInfomationActivity"
+            android:name=".CensusTaker.Main.CompanyInformation.CompanyInfomationActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:label="@string/siteinfomation"
             android:windowSoftInputMode="adjustUnspecified|stateHidden" />
@@ -93,25 +93,25 @@
             android:theme="@style/MyDialogStyleBottom"
             android:windowSoftInputMode="adjustUnspecified|stateHidden" />
         <activity
-            android:name=".RegisterActivity"
+            android:name=".CensusTaker.Main.Activity.RegisterActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:label="@string/title_activity_register"
             android:theme="@style/Theme.Sherlock.Light.NoActionBar"
             android:windowSoftInputMode="adjustUnspecified|stateHidden" />
         <activity
-            android:name=".ForgetPasswordActivity"
+            android:name=".CensusTaker.Main.Activity.ForgetPasswordActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:label="@string/title_activity_forget_password"
             android:theme="@style/Theme.Sherlock.Light.NoActionBar"
             android:windowSoftInputMode="adjustUnspecified|stateHidden" />
         <activity
-            android:name=".SearchActivity"
+            android:name=".CensusTaker.Main.Activity.SearchActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:label="@string/title_activity_search"
             android:theme="@style/Theme.Sherlock.Light.NoActionBar"
             android:windowSoftInputMode="adjustUnspecified|stateHidden" />
         <activity
-            android:name=".HelpActivity"
+            android:name=".CensusTaker.Main.Activity.HelpActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:label="@string/title_activity_help"
             android:theme="@style/Theme.Sherlock.Light.NoActionBar"

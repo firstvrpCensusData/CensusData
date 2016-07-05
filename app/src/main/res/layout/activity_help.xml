@@ -6,7 +6,7 @@
     android:fillViewport="true"
     android:fitsSystemWindows="true"
     android:orientation="vertical"
-    tools:context="com.firstvrp.censusdata.HelpActivity">
+    tools:context=".CensusTaker.Main.Activity.HelpActivity">
 
     <LinearLayout
         android:layout_width="match_parent"

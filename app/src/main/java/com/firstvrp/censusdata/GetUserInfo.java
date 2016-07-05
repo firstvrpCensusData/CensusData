@@ -4,12 +4,10 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.support.v4.util.ArrayMap;
 
-import com.firstvrp.censusdata.CompanyInformation.CompanyInfomationActivity;
 import com.firstvrp.censusdata.Entity.BasUserEntity;
 import com.firstvrp.censusdata.Entity.LoginInfoEntity;
 import com.firstvrp.censusdata.Http.TwitterRestClient;
 import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
 import com.loopj.android.http.AsyncHttpResponseHandler;
 
 import org.apache.http.Header;

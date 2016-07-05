@@ -15,6 +15,7 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.actionbarsherlock.app.SherlockActivity;
+import com.firstvrp.censusdata.CensusTaker.Main.Activity.LoginActivity;
 import com.firstvrp.censusdata.Entity.VersionEntity;
 import com.firstvrp.censusdata.Http.TwitterRestClient;
 import com.google.gson.Gson;
