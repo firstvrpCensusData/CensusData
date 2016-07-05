@@ -4,7 +4,10 @@
         <item name="actionBarStyle">@style/Widget.My.ActionBar</item>
         <item name="android:actionBarStyle">@style/Widget.My.ActionBar</item>
     </style>
-
+    <style name="Theme.Wang" parent="android:Theme.Light">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
     <!-- 标题栏的样式 -->
     <style name="Widget.My.ActionBar" parent="Widget.Sherlock.ActionBar.Solid">
         <item name="titleTextStyle">@style/Widget.My.ActionBar.Title</item>

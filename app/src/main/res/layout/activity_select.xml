@@ -1,46 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
+    android:layout_height="match_parent"
+    android:background="@color/whitesmoke"
+    android:paddingLeft="10dip"
+    android:paddingRight="10dip">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="52.0dip"
-        android:background="#f5f5f5"
-        android:gravity="center_horizontal"
         android:orientation="horizontal">
-        <!--android:background="@drawable/tab_bg"-->
         <Button
             android:id="@+id/select_but"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dip"
+            android:layout_height="48dip"
             android:layout_weight="1"
             android:background="@color/barcolor"
-            android:gravity="center"
+            android:layout_gravity="center_vertical"
             android:text="批量选择"
             android:textSize="22sp"
             android:padding="3dp"/>
-
         <Spinner
             android:id="@+id/select_spinner_preparer"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="50dip"
             android:layout_weight="1"
             android:prompt="@string/preparer"
-            android:gravity="center"  
-            android:layout_marginLeft="5dip">
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="2dip">
         </Spinner>
-
         <Spinner
             android:id="@+id/select_spinner_checke_type"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="10dip"
+            android:layout_height="50dip"
             android:layout_weight="1"
             android:prompt="@string/checke_type"
-            android:layout_marginLeft="5dip"
-            android:padding="3dp">
+            android:layout_marginLeft="2dip"
+            android:layout_gravity="center_vertical"
+            >
         </Spinner>
     </LinearLayout>
 </LinearLayout>

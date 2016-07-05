@@ -23,6 +23,7 @@ import com.loopj.android.http.AsyncHttpResponseHandler;
 import org.apache.http.Header;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -44,7 +45,7 @@ public class CheckPendingActivity extends Activity {
     Map<String, String> map;
     List<UnitsInfoEntity> unitsInfoEntities;
     List<PlaceInfoEntity> placeInfoEntities;
-    
+    List<Map<String, Object>> mlist = new ArrayList<Map<String, Object>>();
     private ListView mListView;
     private Button   mButton;
     private Spinner  mPreparerSpinner;
@@ -56,10 +57,10 @@ public class CheckPendingActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        
         setContentView(R.layout.activity_checkpending);
         initView();
-        //application = (MyApplication) getApplication();
-       // initDate();
+        initDate();
     }
 
     private void initDate() {
@@ -71,7 +72,8 @@ public class CheckPendingActivity extends Activity {
     public void getCheckedUnitsInfoList() {
         String url;
         if (map != null) {
-            url = String.format(getString(R.string.url_get_unitsinfo), 1, 1000, "", "", "", 0);
+           // url = String.format(getString(R.string.url_get_unitsinfo), 1, 1000, "", "", "", 0);
+            url = "api/UnitsInfo";       
         } else {
             Intent intent = new Intent(CheckPendingActivity.this, LoginActivity.class);
             startActivity(intent);
@@ -133,8 +135,13 @@ public class CheckPendingActivity extends Activity {
 
     private void getBinData() {
         String url;
+        
+        
+        
+        
         if (map != null) {
             url = String.format(getString(R.string.url_get_bigplaceinfo), 1, 50, "", "", "", 0, map.get("userID"));
+            
         } else {
             Intent intent = new Intent(CheckPendingActivity.this, LoginActivity.class);
             startActivity(intent);
@@ -190,8 +197,19 @@ public class CheckPendingActivity extends Activity {
                 }
             }
             childData.add(curChildMap);
+
+            Map<String, Object> mMap = new HashMap<String, Object>();
+            mMap.put("id", unitsInfoEntities.get(i).getId());
+            mMap.put("units_name", unitsInfoEntities.get(i).getUnits_name());
+            mMap.put("audit_state",unitsInfoEntities.get(i).getAudit_state());
+            mMap.put("fill_people", unitsInfoEntities.get(i).getFill_people());
+            mMap.put("yb_counts",  unitsInfoEntities.get(i).getYb_counts());
+            mlist.add(mMap);
+            
         }
-        //SimpleAdapter mAdapter = new SimpleAdapter();
+        
+        
+        //SimpleAdapter mAdapter = new SimpleAdapter(CheckPendingActivity.this,unitsInfoEntities,R.layout.activity_check_item,new String);
 //无用代码 
        // ExAdapter adapter = new ExAdapter(CheckPendingActivity.this, groupData, childData, application);
         //exList.setAdapter(adapter);

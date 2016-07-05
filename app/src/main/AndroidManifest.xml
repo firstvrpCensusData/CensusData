@@ -123,8 +123,7 @@
             android:windowSoftInputMode="adjustUnspecified|stateHidden" />
         <activity android:name=".CheckPendingActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
-            android:label="@string/checke_type"
-            android:theme="@style/Theme.Sherlock.Light.NoActionBar"
+            android:theme="@style/Theme.Wang" 
             android:windowSoftInputMode="adjustUnspecified|stateHidden" />
         <service
             android:name="com.baidu.location.f"
