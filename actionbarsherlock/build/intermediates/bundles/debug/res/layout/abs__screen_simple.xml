@@ -38,4 +38,4 @@ enabled.
          android:foregroundGravity="fill_horizontal|top"
          android:foreground="?attr/windowContentOverlay" />
 </LinearLayout>
-<!-- From: file:/Users/chenyuan/Documents/CensusData/actionbarsherlock/res/layout/abs__screen_simple.xml -->
+<!-- From: file:/F:/githubworkspace/CensusData/actionbarsherlock/res/layout/abs__screen_simple.xml -->

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="65.32999dip"
+    android:id="@+id/realtabcontent"
+    android:layout_alignParentBottom="true"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="52.0dip"
+        android:layout_gravity="bottom"
+        android:background="#f5f5f5"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+        <!--android:background="@drawable/tab_bg"-->
+        <FrameLayout
+            android:id="@+id/checkpending_framelayout"
+            android:layout_width="fill_parent"
+            android:layout_height="48.0dip"
+            android:layout_weight="1.0" >
+
+            <ImageView
+                android:id="@+id/tab_checkpending"
+                android:layout_width="28.0dip"
+                android:layout_height="28.0dip"
+                android:layout_gravity="top|center"
+                android:layout_marginTop="5.0dip"
+                android:src="@drawable/tab_home_click" />
+
+            <TextView
+                android:id="@+id/tab_checkpending_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:layout_marginBottom="2.0dip"
+                android:text="表格审批"
+                android:textColor="#0aca4e"
+                android:textSize="10.0dip" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/checked_framelayout"
+            android:layout_width="fill_parent"
+            android:layout_height="48.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_weight="1.0" >
+
+            <ImageView
+                android:id="@+id/tab_checked_click"
+                android:layout_width="28.0dip"
+                android:layout_height="28.0dip"
+                android:layout_gravity="top|center"
+                android:layout_marginTop="5.0dip"
+                android:src="@drawable/tab_bang" />
+
+            <TextView
+                android:id="@+id/tab_checked_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:layout_marginBottom="2.0dip"
+                android:text="查看"
+                android:textSize="10.0dip" />
+        </FrameLayout>
+        <FrameLayout
+            android:id="@+id/analyze_framelayout"
+            android:layout_width="fill_parent"
+            android:layout_height="48.0dip"
+            android:layout_weight="1.0" >
+
+            <ImageView
+                android:id="@+id/tab_analyze_click"
+                android:layout_width="27.0dip"
+                android:layout_height="27.0dip"
+                android:layout_gravity="top|center"
+                android:layout_marginTop="5.0dip"
+                android:src="@drawable/tab_analyze" />
+
+            <TextView
+                android:id="@+id/tab_analyze_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:layout_marginBottom="2.0dip"
+                android:text="分析"
+                android:textSize="10.0dip" />
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="48.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:layout_weight="1.0"
+            android:id="@+id/search_framelayout">
+
+            <ImageView
+                android:id="@+id/tab_search_click"
+                android:layout_width="27.0dip"
+                android:layout_height="27.0dip"
+                android:layout_gravity="top|center"
+                android:layout_marginTop="5.0dip"
+                android:src="@drawable/tab_search" />
+
+            <TextView
+                android:id="@+id/tab_search_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:layout_marginBottom="2.0dip"
+                android:text="搜索"
+                android:textSize="10.0dip" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/mycenter_framelayout"
+            android:layout_width="fill_parent"
+            android:layout_height="48.0dip"
+            android:layout_weight="1.0" >
+
+            <ImageView
+                android:id="@+id/tab_mycenter_click"
+                android:layout_width="27.0dip"
+                android:layout_height="27.0dip"
+                android:layout_gravity="top|center"
+                android:layout_marginTop="5.0dip"
+                android:src="@drawable/tab_person" />
+
+            <TextView
+                android:id="@+id/tab_mycenter_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:layout_marginBottom="2.0dip"
+                android:text="用户管理"
+                android:textSize="10.0dip" />
+        </FrameLayout>
+    </LinearLayout>
+
+</FrameLayout>
