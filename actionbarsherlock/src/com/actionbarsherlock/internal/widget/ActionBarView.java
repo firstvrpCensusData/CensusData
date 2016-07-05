@@ -1412,8 +1412,7 @@ public class ActionBarView extends AbsActionBarView {
 
         @Override
         public boolean collapseItemActionView(MenuBuilder menu, MenuItemImpl item) {
-            // Do this before detaching the actionview from the hierarchy, in case
-            // it needs to dismiss the soft keyboard, etc.
+
             if (mExpandedActionView instanceof CollapsibleActionView) {
                 ((CollapsibleActionView) mExpandedActionView).onActionViewCollapsed();
             }

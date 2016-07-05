@@ -29,7 +29,7 @@
 
     <string name="themeName">mytable</string>
 
-     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_unit_information">(甲)单位基本情况</string>
     <string name="sign_in">立即注册</string>
     <string name="forget_password">忘记密码</string>
@@ -55,7 +55,6 @@
     <string name="next_page">下页</string>
     <string name="pro_page">上页</string>
     <string name="no_place_same">没有匹配的场地</string>
-
 
 
 </resources>

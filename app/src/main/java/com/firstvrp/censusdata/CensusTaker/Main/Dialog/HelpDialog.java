@@ -1,4 +1,4 @@
-package com.firstvrp.censusdata.Dialog;
+package com.firstvrp.censusdata.CensusTaker.Main.Dialog;
 
 import android.app.Dialog;
 import android.content.Context;
