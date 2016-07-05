@@ -57,4 +57,18 @@
     <string name="no_place_same">没有匹配的场地</string>
 
 
+<<<<<<< HEAD
+=======
+    <string name="check_pending">表格审批</string>
+    <string name="checke_text">查看</string>
+    <string name="analyze">分析</string>
+    <string name="user_management">用户管理</string>
+    
+    <string name="preparer">填表人</string>
+    <string name="checke_type">审核类型</string>
+
+    <string name="item_preparer">填表人:</string>
+    <string name="item_checke_type">审核类型:</string>
+    <string name="b_table_number">乙表数量:</string>
+>>>>>>> origin/CyNewUp
 </resources>

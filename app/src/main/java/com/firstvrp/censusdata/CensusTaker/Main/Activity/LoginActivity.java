@@ -17,9 +17,14 @@ import com.dd.CircularProgressButton;
 import com.firstvrp.censusdata.Entity.BasUserEntity;
 import com.firstvrp.censusdata.Entity.LoginInfoEntity;
 import com.firstvrp.censusdata.Http.TwitterRestClient;
+<<<<<<< HEAD:app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/Activity/LoginActivity.java
 import com.firstvrp.censusdata.CensusTaker.Main.MainActionActivity;
 import com.firstvrp.censusdata.MyApplication;
 import com.firstvrp.censusdata.R;
+=======
+import com.firstvrp.censusdata.Main.MainActionActivity;
+import com.firstvrp.censusdata.Main.MainLeaderActivity;
+>>>>>>> origin/CyNewUp:app/src/main/java/com/firstvrp/censusdata/LoginActivity.java
 import com.google.gson.Gson;
 import com.loopj.android.http.AsyncHttpResponseHandler;
 
@@ -48,7 +53,7 @@ public class LoginActivity extends SherlockActivity implements View.OnClickListe
 
     private CheckBox login_auto;
     private CircularProgressButton et_activity_login_probutton;
-
+    LoginInfoEntity baseEntity;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -166,7 +171,12 @@ public class LoginActivity extends SherlockActivity implements View.OnClickListe
                     break;
                 case LOGINSUCCESS:
                     et_activity_login_probutton.setProgress(100);
-                    Intent intent = new Intent(LoginActivity.this, MainActionActivity.class);
+                    Intent intent;
+                    if(baseEntity.getUser().getUser_type()==1) {
+                        intent = new Intent(LoginActivity.this, MainActionActivity.class);
+                    }else {
+                        intent = new Intent(LoginActivity.this, MainLeaderActivity.class);
+                    }
                     startActivity(intent);
                     break;
                 case 3:
@@ -192,7 +202,7 @@ public class LoginActivity extends SherlockActivity implements View.OnClickListe
             @Override
             public void onSuccess(int statusCode, Header[] headers, byte[] responseBody) {
                 Gson gson = new Gson();
-                LoginInfoEntity baseEntity = gson.fromJson(new String(responseBody), LoginInfoEntity.class);
+                baseEntity = gson.fromJson(new String(responseBody), LoginInfoEntity.class);
                 if (baseEntity.isSuccess()) {
                     application = (MyApplication) getApplication();
                     application.setBasUserEntity(baseEntity.getUser());

@@ -124,7 +124,8 @@ public class WelcomeActivity extends SherlockActivity {
                     new Handler().postDelayed(r, 1000);// 1秒后关闭，并跳转到主页面
                     break;
                 case SHOW_UPDATE_DIALOG:
-                    showUpdateDialog();
+                    new Handler().postDelayed(r, 1000);
+                    //showUpdateDialog();
                     break;
             }
         }
