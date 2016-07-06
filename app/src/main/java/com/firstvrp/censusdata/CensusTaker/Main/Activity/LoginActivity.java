@@ -17,14 +17,11 @@ import com.dd.CircularProgressButton;
 import com.firstvrp.censusdata.Entity.BasUserEntity;
 import com.firstvrp.censusdata.Entity.LoginInfoEntity;
 import com.firstvrp.censusdata.Http.TwitterRestClient;
-<<<<<<< HEAD:app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/Activity/LoginActivity.java
 import com.firstvrp.censusdata.CensusTaker.Main.MainActionActivity;
 import com.firstvrp.censusdata.MyApplication;
 import com.firstvrp.censusdata.R;
-=======
-import com.firstvrp.censusdata.Main.MainActionActivity;
+
 import com.firstvrp.censusdata.Main.MainLeaderActivity;
->>>>>>> origin/CyNewUp:app/src/main/java/com/firstvrp/censusdata/LoginActivity.java
 import com.google.gson.Gson;
 import com.loopj.android.http.AsyncHttpResponseHandler;
 
