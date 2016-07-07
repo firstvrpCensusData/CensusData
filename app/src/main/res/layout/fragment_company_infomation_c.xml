@@ -7,7 +7,7 @@
     android:background="@color/barcolor"
     android:orientation="vertical"
     android:fillViewport="true"
-    tools:context=".CensusTaker.Main.CompanyInformation.CompanyInfomationC">
+    tools:context="com.firstvrp.censusdata.CompanyInformation.CompanyInfomationC">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"

@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:padding="@dimen/margin"
     android:weightSum="2"
-    tools:context=".CensusTaker.Main.PlaceTable.PlaceSpecialProject8">
+    tools:context="com.firstvrp.censusdata.PlaceTable.PlaceSpecialProject8">
 
     <LinearLayout
         android:id="@+id/tab_basic_information_2"

@@ -15,13 +15,14 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.SectionIndexer;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.actionbarsherlock.app.ActionBar;
 import com.actionbarsherlock.app.SherlockActivity;
 import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuItem;
-import com.firstvrp.censusdata.CensusTaker.Main.CompanyInformation.CompanyInfomationActivity;
-import com.firstvrp.censusdata.CensusTaker.Main.MainActionActivity;
+import com.firstvrp.censusdata.CompanyInformation.CompanyInfomationActivity;
+import com.firstvrp.censusdata.Main.MainActionActivity;
 import com.firstvrp.censusdata.R;
 import com.firstvrp.censusdata.SiteSelection.SideBar.OnTouchingLetterChangedListener;
 

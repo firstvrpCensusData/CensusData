@@ -6,11 +6,19 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.util.Log;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.FrameLayout;
 import android.widget.ListView;
 import android.widget.Spinner;
+import android.widget.Toast;
 
+import com.firstvrp.censusdata.Adapter.CheakSimpleAdapter;
+import com.firstvrp.censusdata.CompanyInformation.CompanyInfomationActivity;
+import com.firstvrp.censusdata.Entity.AuditStateEntity;
 import com.firstvrp.censusdata.Entity.BigPlaceInfoEntity;
 import com.firstvrp.censusdata.Entity.ChailPlaceInfoEntity;
 import com.firstvrp.censusdata.Entity.PlaceInfoEntity;
@@ -32,7 +40,7 @@ import Utils.PromptManager;
 /**
  * Created by arthur on 2016/7/4.
  */
-public class CheckPendingActivity extends Activity {
+public class CheckPendingActivity extends Activity implements AdapterView.OnItemClickListener, View.OnClickListener, AdapterView.OnItemLongClickListener {
     private static final int SUCCESS = 0X11;
     private static final int FAILURE = 0X12;
     private static final int NULL = 0X13;
@@ -46,6 +54,8 @@ public class CheckPendingActivity extends Activity {
     List<UnitsInfoEntity> unitsInfoEntities;
     List<PlaceInfoEntity> placeInfoEntities;
     List<Map<String, Object>> mlist = new ArrayList<Map<String, Object>>();
+    AuditStateEntity mAuditStateEntity = new AuditStateEntity();
+    List list ;
     private ListView mListView;
     private Button   mButton;
     private Spinner  mPreparerSpinner;
@@ -53,14 +63,58 @@ public class CheckPendingActivity extends Activity {
     private FrameLayout mPassFragment;
     private FrameLayout mNoPassFragment;
     private FrameLayout mDeleteFragment;
-    
+    private CheckBox mCheckBox;
+    private boolean isShow =false;
+    CheakSimpleAdapter mCheakSimpleAdapter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        
         setContentView(R.layout.activity_checkpending);
         initView();
         initDate();
+        initEvent();
+        initSpinnerEcent();
+    }
+
+    private void initSpinnerEcent() {
+        mPreparerSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+
+            }
+        });
+        list = new ArrayList<String>();
+        list.add(mAuditStateEntity.AUDITSTATE_CHECKPENDING);
+        list.add(mAuditStateEntity.AUDITSTATE_CHECKED);
+        list.add(mAuditStateEntity.AUDITSTATE_UNCHECK);
+        ArrayAdapter mArrayAdapte = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, list);
+        mArrayAdapte.setDropDownViewResource(android.R.layout.simple_dropdown_item_1line);
+        mCheckeTypeSpinner.setAdapter(mArrayAdapte);
+        mCheckeTypeSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                mCheckeTypeSpinner.setTextAlignment(position);
+            }
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+
+            }
+        });
+    }
+
+    private void initEvent() {
+        //1,设置数据源
+        mListView.setOnItemClickListener(this);
+        mListView.setOnItemLongClickListener(this);
+        mButton.setOnClickListener(this);
+        mPassFragment.setOnClickListener(this);
+        mNoPassFragment.setOnClickListener(this);
+        mDeleteFragment.setOnClickListener(this);
     }
 
     private void initDate() {
@@ -72,8 +126,7 @@ public class CheckPendingActivity extends Activity {
     public void getCheckedUnitsInfoList() {
         String url;
         if (map != null) {
-           // url = String.format(getString(R.string.url_get_unitsinfo), 1, 1000, "", "", "", 0);
-            url = "api/UnitsInfo";       
+           url = String.format(getString(R.string.url_get_unitsinfo), 1, 1000, "", "", "", 0);
         } else {
             Intent intent = new Intent(CheckPendingActivity.this, LoginActivity.class);
             startActivity(intent);
@@ -135,10 +188,6 @@ public class CheckPendingActivity extends Activity {
 
     private void getBinData() {
         String url;
-        
-        
-        
-        
         if (map != null) {
             url = String.format(getString(R.string.url_get_bigplaceinfo), 1, 50, "", "", "", 0, map.get("userID"));
             
@@ -156,7 +205,9 @@ public class CheckPendingActivity extends Activity {
                 }.getType());
                 handler.sendEmptyMessage(BIGSUCCESS);
                 if (statusCode == 200 && bigPlaceInfoEntities != null) {
+                    
                 } else {
+                    
                 }
                 Log.v("getBigDataonSuccess", new String(responseBody));
             }
@@ -201,20 +252,24 @@ public class CheckPendingActivity extends Activity {
             Map<String, Object> mMap = new HashMap<String, Object>();
             mMap.put("id", unitsInfoEntities.get(i).getId());
             mMap.put("units_name", unitsInfoEntities.get(i).getUnits_name());
-            mMap.put("audit_state",unitsInfoEntities.get(i).getAudit_state());
+            if (unitsInfoEntities.get(i).getAudit_state() == 2)
+                mMap.put("audit_state",mAuditStateEntity.AUDITSTATE_UNCHECK);
+            if (unitsInfoEntities.get(i).getAudit_state() == 1)
+                mMap.put("audit_state",mAuditStateEntity.AUDITSTATE_CHECKED);
+            if (unitsInfoEntities.get(i).getAudit_state() == 0)
+                mMap.put("audit_state",mAuditStateEntity.AUDITSTATE_CHECKPENDING);
             mMap.put("fill_people", unitsInfoEntities.get(i).getFill_people());
             mMap.put("yb_counts",  unitsInfoEntities.get(i).getYb_counts());
             mlist.add(mMap);
-            
         }
         
-        
-        //SimpleAdapter mAdapter = new SimpleAdapter(CheckPendingActivity.this,unitsInfoEntities,R.layout.activity_check_item,new String);
-//无用代码 
-       // ExAdapter adapter = new ExAdapter(CheckPendingActivity.this, groupData, childData, application);
-        //exList.setAdapter(adapter);
-       // exList.setGroupIndicator(null);
-       // exList.setDivider(null);
+      /*  SimpleAdapter mAdapter = new SimpleAdapter(CheckPendingActivity.this,mlist,R.layout.activity_check_item,new String[]{
+                "id", "units_name","audit_state","fill_people","yb_counts"},new int[] {R.id.check_units_id,R.id.check_units_name,R.id.item_check_type,R.id.item_preparer,R.id.b_table_number});
+       mListView.setAdapter(mAdapter);
+       */
+        mCheakSimpleAdapter = new CheakSimpleAdapter(CheckPendingActivity.this,mlist,R.layout.activity_check_item,new String[]{
+                "id", "units_name","audit_state","fill_people","yb_counts"},new int[] {R.id.check_units_id,R.id.check_units_name,R.id.item_check_type,R.id.item_preparer,R.id.b_table_number});
+        mListView.setAdapter(mCheakSimpleAdapter);
     }
     
     Handler handler = new Handler() {
@@ -240,15 +295,83 @@ public class CheckPendingActivity extends Activity {
             }
         }
     };
-
-
     private void initView() {
         mListView = (ListView) findViewById(R.id.checkpending_listview);
+        mListView.setTag(1);
         mButton = (Button) findViewById(R.id.select_but);
+        mButton.setTag(2);
         mPreparerSpinner= (Spinner) findViewById(R.id.select_spinner_preparer);
+        mPreparerSpinner.setTag(3);
         mCheckeTypeSpinner= (Spinner) findViewById(R.id.select_spinner_checke_type);
+        mCheckeTypeSpinner.setTag(4);
         mPassFragment= (FrameLayout) findViewById(R.id.checkpending_pass_framelayout);
+        mPassFragment.setTag(5);
         mNoPassFragment= (FrameLayout) findViewById(R.id.checkpending_no_pass_framelayout);
+        mNoPassFragment.setTag(6);
         mDeleteFragment= (FrameLayout) findViewById(R.id.checkpending_delete_framelayoutd);
+        mDeleteFragment.setTag(7);
+        //mCheckBox = (CheckBox) findViewById(R.id.checkBox);
+        //mCheckBox.setTag(8);
     }
+    @Override
+    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+        String itemid = parent.getItemAtPosition(position).toString();
+        Toast.makeText(CheckPendingActivity.this,parent.getItemAtPosition(position).toString()+"短时间点击",Toast.LENGTH_SHORT).show();
+        Log.i("text", itemid+"");
+    }
+
+    @Override
+    public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
+        String itemid = parent.getItemAtPosition(position).toString();
+        Toast.makeText(this,parent.getItemAtPosition(position).toString()+"长时间点击",Toast.LENGTH_SHORT).show();
+        Log.i("text", itemid+"");
+        UnitsInfoEntity unitsInfoEntity = unitsInfoEntities.get(position);
+        /*Intent intent = new Intent(this, CompanyInfomationActivity.class);
+        intent.putExtra("unitsInfoEntity", unitsInfoEntity);
+        this.startActivity(intent);*/
+
+        Intent intent = new Intent(this, CompanyInfomationActivity.class);
+        intent.putExtra("organizationCode", unitsInfoEntity.getOrg_code());
+        intent.putExtra("type", "companyinfo");
+        this.startActivity(intent);
+        return true;
+    }
+    
+    @Override
+    public void onClick(View v) {
+        int tag = (int) v.getTag();
+        switch(tag) {
+            case 2:
+                mCheakSimpleAdapter.toggle();
+                /*if(isShow){
+                    HideCheckBox();
+                }else{
+                    ShowCheckBox();
+                }*/
+                break;
+            case 5:
+                
+                break;
+            case 6:
+                
+                break;
+            case 7:
+                
+                break;
+            default:
+                break;
+        }
+    }
+
+    private void ShowCheckBox() {
+        if(isShow)return;
+        mCheckBox.setVisibility(View.VISIBLE);
+        isShow = true;
+    }
+    private void HideCheckBox() {
+        if(!isShow)return;
+        mCheckBox.setVisibility(View.GONE);
+        isShow = false;
+    }
+
 }

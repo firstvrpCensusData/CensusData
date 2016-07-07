@@ -4,13 +4,6 @@
     <shared>
       <config />
     </shared>
-    <layouts>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/custom_tab_admin.xml">
-        <config>
-          <theme>@style/Theme.MY</theme>
-        </config>
-      </layout>
-    </layouts>
   </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
@@ -18,13 +11,250 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="808b231e-9f4d-4756-abe0-898462f6b0f3" name="Default" comment="修改目录结构，做管理员端">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/AdminMain/AdminActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/Activity/ForgetPasswordActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/Activity/HelpActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/Activity/LoginActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/Activity/OrganizationCodeActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/Activity/RegisterActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/Activity/SearchActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/Adapter/ExAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/Adapter/ExCheckedAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/Adapter/FragmentTabAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/Adapter/InfoDetailsAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/Adapter/Project7Adapter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/Adapter/SearchListAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/AddFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/CheckPendingFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/CheckedFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/CompanyInformation/CompanyInfomationA.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/CompanyInformation/CompanyInfomationActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/CompanyInformation/CompanyInfomationB.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/CompanyInformation/CompanyInfomationC.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/CompanyInformation/IBtnCallListener.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/Dialog/HelpDialog.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/MainActionActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/MyCenterFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/PlaceTable/BasicInformationFragmentA.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/PlaceTable/BasicInformationFragmentB.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/PlaceTable/PlaceSpecialProject1.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/PlaceTable/PlaceSpecialProject10.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/PlaceTable/PlaceSpecialProject11.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/PlaceTable/PlaceSpecialProject12.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/PlaceTable/PlaceSpecialProject13.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/PlaceTable/PlaceSpecialProject14.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/PlaceTable/PlaceSpecialProject15.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/PlaceTable/PlaceSpecialProject16.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/PlaceTable/PlaceSpecialProject17.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/PlaceTable/PlaceSpecialProject18.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/PlaceTable/PlaceSpecialProject19.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/PlaceTable/PlaceSpecialProject2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/PlaceTable/PlaceSpecialProject20.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/PlaceTable/PlaceSpecialProject21.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/PlaceTable/PlaceSpecialProject22.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/PlaceTable/PlaceSpecialProject23.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/PlaceTable/PlaceSpecialProject24.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/PlaceTable/PlaceSpecialProject25.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/PlaceTable/PlaceSpecialProject3.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/PlaceTable/PlaceSpecialProject4.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/PlaceTable/PlaceSpecialProject4a.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/PlaceTable/PlaceSpecialProject4b.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/PlaceTable/PlaceSpecialProject4c.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/PlaceTable/PlaceSpecialProject5.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/PlaceTable/PlaceSpecialProject5a.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/PlaceTable/PlaceSpecialProject6.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/PlaceTable/PlaceSpecialProject7.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/PlaceTable/PlaceSpecialProject8.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/PlaceTable/PlaceSpecialProject8a.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/PlaceTable/PlaceSpecialProject8b.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/PlaceTable/PlaceSpecialProject9.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/PlaceTable/PlaceSpecialProjectBig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/PlaceTable/PlaceSpecialProjectBiga.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/PlaceTable/PlaceSpecialProjectBigb.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/PlaceTable/PlaceSpecialProjectBigc.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/UnfinishedFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ico_analyze.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ico_analyze_click.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ico_per.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ico_per_click.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ico_query.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ico_query_click.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_admin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/layout/custom_tab_admin.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/Activity/LoginActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/Activity/LoginActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/actionbarsherlock/actionbarsherlock.iml" afterPath="$PROJECT_DIR$/actionbarsherlock/actionbarsherlock.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/Utils/ConstantValue.java" afterPath="$PROJECT_DIR$/app/src/main/java/Utils/ConstantValue.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/Utils/GetLocation.java" afterPath="$PROJECT_DIR$/app/src/main/java/Utils/GetLocation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/Utils/GetNowTime.java" afterPath="$PROJECT_DIR$/app/src/main/java/Utils/GetNowTime.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/Utils/GlobalParams.java" afterPath="$PROJECT_DIR$/app/src/main/java/Utils/GlobalParams.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/Utils/NetUtil.java" afterPath="$PROJECT_DIR$/app/src/main/java/Utils/NetUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/Utils/PromptManager.java" afterPath="$PROJECT_DIR$/app/src/main/java/Utils/PromptManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/AccessSelect/AbstractWheelAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/AccessSelect/AbstractWheelAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/AccessSelect/AbstractWheelTextAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/AccessSelect/AbstractWheelTextAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/AccessSelect/AdapterWheel.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/AccessSelect/AdapterWheel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/AccessSelect/ArrayWheelAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/AccessSelect/ArrayWheelAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/AccessSelect/BaseActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/AccessSelect/BaseActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/AccessSelect/ItemsRange.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/AccessSelect/ItemsRange.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/AccessSelect/NumericWheelAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/AccessSelect/NumericWheelAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/AccessSelect/OnWheelChangedListener.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/AccessSelect/OnWheelChangedListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/AccessSelect/OnWheelClickedListener.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/AccessSelect/OnWheelClickedListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/AccessSelect/OnWheelScrollListener.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/AccessSelect/OnWheelScrollListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/AccessSelect/WheelRecycle.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/AccessSelect/WheelRecycle.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/AccessSelect/WheelScroller.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/AccessSelect/WheelScroller.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/AccessSelect/WheelView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/AccessSelect/WheelView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/AccessSelect/WheelViewAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/AccessSelect/WheelViewAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CheckPendingActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CheckPendingActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Entity/BasCodeEntity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Entity/BasCodeEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Entity/BasUserEntity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Entity/BasUserEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Entity/BearTaskEntity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Entity/BearTaskEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Entity/BigPlaceInfoEntity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Entity/BigPlaceInfoEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Entity/ChailPlaceInfoEntity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Entity/ChailPlaceInfoEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Entity/FitnessItemEntity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Entity/FitnessItemEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Entity/ForgetPasswordEntity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Entity/ForgetPasswordEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Entity/LoginInfoEntity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Entity/LoginInfoEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Entity/MyCenterUpDataPassEntity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Entity/MyCenterUpDataPassEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Entity/NoteEntity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Entity/NoteEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Entity/OrganizatoinEntity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Entity/OrganizatoinEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Entity/PlaceHomeEntity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Entity/PlaceHomeEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Entity/PlaceInfoChildEntity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Entity/PlaceInfoChildEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Entity/PlaceInfoEntity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Entity/PlaceInfoEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Entity/PlaceRangeEntity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Entity/PlaceRangeEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Entity/PlaceSpecialIndexEntity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Entity/PlaceSpecialIndexEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Entity/Project4SyndromeEntity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Entity/Project4SyndromeEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Entity/RegisterActivityEntity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Entity/RegisterActivityEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Entity/RegisterEntity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Entity/RegisterEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Entity/SaveStyleEnum.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Entity/SaveStyleEnum.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Entity/SportsItemEntity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Entity/SportsItemEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Entity/SportsStateEntity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Entity/SportsStateEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Entity/TrainItemEntity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Entity/TrainItemEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Entity/UnitsInfoEntity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Entity/UnitsInfoEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Entity/UnitsInfoPostEntity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Entity/UnitsInfoPostEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Entity/UnitsInfoReturnEntity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Entity/UnitsInfoReturnEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Entity/UpdataPlaceInfoREntity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Entity/UpdataPlaceInfoREntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Entity/UpdataUserInfoEntity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Entity/UpdataUserInfoEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Entity/VersionEntity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Entity/VersionEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/GetUserInfo.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/GetUserInfo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Http/TwitterRestClient.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Http/TwitterRestClient.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Main/MainLeaderActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Main/MainLeaderActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/MyApplication.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/MyApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/SiteSelection/SiteSelectionActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/SiteSelection/SiteSelectionActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/WelcomeActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/WelcomeActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/anim/push_bottom_in.xml" afterPath="$PROJECT_DIR$/app/src/main/res/anim/push_bottom_in.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/anim/push_bottom_out.xml" afterPath="$PROJECT_DIR$/app/src/main/res/anim/push_bottom_out.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/complete_state_selector.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/complete_state_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/cpb_background.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cpb_background.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/error_state_selector.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/error_state_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/idle_state_selector.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/idle_state_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_access_select.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_access_select.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_forget_password.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_forget_password.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_help.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_help.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_my_tab_action.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_my_tab_action.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_organization_code.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_organization_code.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_search.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_search.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_select.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_select.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/add_place_4c.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/add_place_4c.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/add_place_7.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/add_place_7.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/dialog_help.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_help.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/ex_checked_view_first.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/ex_checked_view_first.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/ex_checked_view_second.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/ex_checked_view_second.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/expandablelistview_first.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/expandablelistview_first.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/expandablelistview_second.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/expandablelistview_second.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_add.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_add.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_basic_information_fragment_a.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_basic_information_fragment_a.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_basic_information_fragment_b.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_basic_information_fragment_b.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_checked.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_checked.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_checkpending.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_checkpending.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_company_infomation_a.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_company_infomation_a.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_company_infomation_b.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_company_infomation_b.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_company_infomation_c.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_company_infomation_c.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_mycenter.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_mycenter.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project1.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project10.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project10.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project11.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project11.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project12.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project12.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project13.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project13.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project14.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project14.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project15.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project15.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project16.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project16.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project17.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project17.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project18.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project18.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project19.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project19.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project2.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project20.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project20.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project21.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project21.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project22.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project22.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project23.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project23.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project24.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project24.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project25.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project25.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project3.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project4.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project4a.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project4a.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project4b.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project4b.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project4c.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project4c.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project5.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project5a.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project5a.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project6.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project6.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project7.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project7.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project8.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project8.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project8a.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project8a.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project8b.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project8b.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project9.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project9.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project_big.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project_big.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project_biga.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project_biga.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project_bigb.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project_bigb.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project_bigc.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_place_special_project_bigc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_unfinished.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_unfinished.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/place_4c_first.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/place_4c_first.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/place_4c_second.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/place_4c_second.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/place_7_first.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/place_7_first.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/place_7_second.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/place_7_second.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/search_list_style.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/search_list_style.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/welcome.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/welcome.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_forget_password.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_forget_password.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_help.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_help.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_login.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_login.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_personage.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_personage.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_register.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_register.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_search.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_search.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values-w820dp/dimens.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values-w820dp/dimens.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/library_circularprogressbutton_strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/library_circularprogressbutton_strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings_activity_login.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings_activity_login.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings_basic_information.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings_basic_information.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings_company_infomation.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings_company_infomation.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings_condition.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings_condition.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings_help_big.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings_help_big.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings_help_unit.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings_help_unit.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings_help_y1.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings_help_y1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings_help_y10.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings_help_y10.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings_help_y11.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings_help_y11.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings_help_y12.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings_help_y12.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings_help_y13.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings_help_y13.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings_help_y14.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings_help_y14.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings_help_y15.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings_help_y15.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings_help_y16.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings_help_y16.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings_help_y2.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings_help_y2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings_help_y3.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings_help_y3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings_help_y4.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings_help_y4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings_help_y5.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings_help_y5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings_help_y6.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings_help_y6.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings_help_y7.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings_help_y7.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings_help_y8.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings_help_y8.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings_help_y9.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings_help_y9.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings_url.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings_url.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/xml/config.xml" afterPath="$PROJECT_DIR$/app/src/main/res/xml/config.xml" />
     </list>
     <ignored path="CensusData.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,74 +282,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.882353">
-              <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="actionbarsherlock.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/actionbarsherlock/actionbarsherlock.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="47" column="79" selection-start-line="47" selection-start-column="79" selection-end-line="47" selection-end-column="79" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.375">
-              <caret line="62" column="17" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
-              <folding>
-                <element signature="e#2933#2964#0" expanded="true" />
-                <element signature="e#3219#3249#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/Activity/LoginActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state vertical-scroll-proportion="-8.75">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainLeaderActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainLeaderActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Main/MainLeaderActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CheckPendingActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CheckPendingActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.97315437">
-              <caret line="56" column="13" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CheckPendingFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/CheckPendingFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+            <state vertical-scroll-proportion="-0.17699115">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -2810,10 +2987,154 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CensusData" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CensusData" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CensusData" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CensusData" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CensusData" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CensusData" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CensusData" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CensusData" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CensusData" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CensusData" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CensusData" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CensusData" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="censusdata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CensusData" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CensusData" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -2867,6 +3188,8 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3216,9 +3539,9 @@
     <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32719547" sideWeight="0.49030694" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32719547" sideWeight="0.49030694" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28513733" sideWeight="0.5056657" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32719547" sideWeight="0.509693" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32719547" sideWeight="0.49353796" order="8" side_tool="false" content_ui="tabs" />
@@ -3227,14 +3550,14 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.49433428" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8427762" sideWeight="0.50646204" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18820679" sideWeight="0.49433428" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5056657" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39943343" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -3270,30 +3593,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/welcome.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.1509433">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/CompanyInformation/CompanyInfomationA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="95" column="24" selection-start-line="95" selection-start-column="24" selection-end-line="95" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/Adapter/ExAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/actionbarsherlock/src/com/actionbarsherlock/internal/nineoldandroids/animation/AnimatorSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -3371,13 +3670,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/PlaceTable/BasicInformationFragmentA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="225" column="0" selection-start-line="225" selection-start-column="0" selection-end-line="225" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/actionbarsherlock/src/com/actionbarsherlock/internal/app/ActionBarImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -3417,13 +3709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15486726">
           <caret line="8" column="71" selection-start-line="8" selection-start-column="70" selection-end-line="8" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/Activity/ForgetPasswordActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22123894">
-          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -3473,7 +3758,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3495,25 +3779,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.19911504">
           <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_admin.xml">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/assets/province_data.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3539,13 +3811,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/MainActionActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15486726">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/custom_tab.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.472">
@@ -3566,33 +3831,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/AdminMain/AdminActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.088495575">
-          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_admin.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.208">
-          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/custom_tab_admin.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.08">
-          <caret line="107" column="52" selection-start-line="107" selection-start-column="52" selection-end-line="107" selection-end-column="52" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -3600,61 +3838,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="android-dummy:///Users/chenyuan/Documents/CensusData/app/Translations Editor">
+      <provider selected="true" editor-type-id="string-resource-editor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings_url.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38990825">
+          <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.882353">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.76555026">
+          <caret line="32" column="69" selection-start-line="32" selection-start-column="69" selection-end-line="32" selection-end-column="69" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/actionbarsherlock/actionbarsherlock.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="47" column="79" selection-start-line="47" selection-start-column="79" selection-end-line="47" selection-end-column="79" />
-          <folding />
+        <state vertical-scroll-proportion="0.022123894">
+          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/CheckPendingFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/WelcomeActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CensusTaker/Main/Activity/LoginActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Main/MainLeaderActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.022123894">
+          <caret line="51" column="70" selection-start-line="51" selection-start-column="70" selection-end-line="51" selection-end-column="70" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.375">
-          <caret line="62" column="17" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
-          <folding>
-            <element signature="e#2933#2964#0" expanded="true" />
-            <element signature="e#3219#3249#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="-8.75">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/CheckPendingActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firstvrp/censusdata/Main/MainLeaderActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.97315437">
-          <caret line="56" column="13" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+        <state vertical-scroll-proportion="-0.17699115">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
       </provider>

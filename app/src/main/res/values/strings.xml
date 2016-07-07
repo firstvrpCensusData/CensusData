@@ -29,6 +29,7 @@
 
     <string name="themeName">mytable</string>
 
+    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_unit_information">(甲)单位基本情况</string>
     <string name="sign_in">立即注册</string>
@@ -56,18 +57,13 @@
     <string name="pro_page">上页</string>
     <string name="no_place_same">没有匹配的场地</string>
 
-
-
     <string name="check_pending">表格审批</string>
     <string name="checke_text">查看</string>
     <string name="analyze">分析</string>
     <string name="user_management">用户管理</string>
-    
     <string name="preparer">填表人</string>
     <string name="checke_type">审核类型</string>
-
     <string name="item_preparer">填表人:</string>
     <string name="item_checke_type">审核类型:</string>
     <string name="b_table_number">乙表数量:</string>
-
 </resources>

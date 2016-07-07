@@ -5,5 +5,6 @@ package com.firstvrp.censusdata.Entity;
  * Created by chenyuan on 16/6/18.
  */
 public enum SaveStyleEnum {
-    CHECKED,CHECKPENDING,ADD,UNCHECK
+    //待审核，审核通过，审核不通过 ，添加
+    CHECKPENDING,CHECKED,UNCHECK ,ADD
 }

@@ -5,7 +5,7 @@
     android:background="@color/barcolor"
     android:fitsSystemWindows="true"
     android:orientation="vertical"
-    tools:context=".CensusTaker.Main.Activity.HelpActivity">
+    tools:context="com.firstvrp.censusdata.HelpActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"

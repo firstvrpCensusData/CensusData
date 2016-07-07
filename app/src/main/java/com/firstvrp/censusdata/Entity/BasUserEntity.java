@@ -27,7 +27,8 @@ public class BasUserEntity {
     private String password;
 
     /// 用户类型
-    /// 1：普查员
+    /// 0：普查员
+    //  1：街道员
     /// 2：区领导
     /// 3：市领导
     private int user_type;

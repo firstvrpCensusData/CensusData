@@ -1,6 +1,6 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".CensusTaker.Main.Activity.SearchActivity">
+    tools:context="com.firstvrp.censusdata.SearchActivity">
     <item android:id="@+id/menu_search"
         android:title="@string/search"
         android:orderInCategory="100"

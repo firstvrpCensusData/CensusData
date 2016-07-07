@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true"
-    tools:context=".CensusTaker.Main.PlaceTable.BasicInformationFragmentA">
+    tools:context="com.firstvrp.censusdata.PlaceTable.BasicInformationFragmentA">
 
     <LinearLayout
         android:layout_width="match_parent"

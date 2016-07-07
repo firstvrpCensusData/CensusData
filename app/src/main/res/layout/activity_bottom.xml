@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="52.0dip"
+        android:background="#f5f5f5"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+        <!--android:background="@drawable/tab_bg"-->
+        <FrameLayout
+            android:id="@+id/checkpending_pass_framelayout"
+            android:layout_width="fill_parent"
+            android:layout_height="48.0dip"
+            android:layout_weight="1.0" 
+            >
+            <ImageView
+                android:id="@+id/tab_check_pass"
+                android:layout_width="28.0dip"
+                android:layout_height="28.0dip"
+                android:layout_gravity="center"
+                android:layout_marginRight="20dip"
+                android:src="@drawable/ico_pass" />
+            <TextView
+                android:id="@+id/tab_check_pass_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dip"
+                android:text="审核通过"
+                android:textColor="#0aca4e"
+                android:textSize="16sp" />
+        </FrameLayout>
+        <FrameLayout
+            android:id="@+id/checkpending_no_pass_framelayout"
+            android:layout_width="fill_parent"
+            android:layout_height="48.0dip"
+            android:layout_weight="1.0"
+            >
+            <ImageView
+                android:id="@+id/tab_check_no_pass"
+                android:layout_width="28.0dip"
+                android:layout_height="28.0dip"
+                android:layout_gravity="center"
+                android:layout_marginRight="18dip"
+                android:src="@drawable/ico_no_pass" />
+
+            <TextView
+                android:id="@+id/tab_check_no_pass_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="18dip"
+                android:text="不通过"
+                android:textColor="#0aca4e"
+                android:textSize="16sp" />
+        </FrameLayout>
+        <FrameLayout
+            android:id="@+id/checkpending_delete_framelayoutd"
+            android:layout_width="fill_parent"
+            android:layout_height="48.0dip"
+            android:layout_weight="1.0"
+            >
+            <ImageView
+                android:id="@+id/tab_check_delete"
+                android:layout_width="28.0dip"
+                android:layout_height="28.0dip"
+                android:layout_gravity="center"
+                android:layout_marginRight="15dip"
+                android:src="@drawable/ico_delete" />
+
+            <TextView
+                android:id="@+id/tab_check_delete_textd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dip"
+                android:text="删除"
+                android:textColor="#0aca4e"
+                android:textSize="16sp" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>
