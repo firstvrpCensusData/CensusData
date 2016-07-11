@@ -66,4 +66,5 @@
     <string name="item_preparer">填表人:</string>
     <string name="item_checke_type">审核类型:</string>
     <string name="b_table_number">乙表数量:</string>
+    <string name="title_activity_main_table">深圳文体场地调查登记表</string>
 </resources>

@@ -1,12 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" >
+<items version="2" />
 
-    <item
-        jar="/Users/chenyuan/Documents/CensusData/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        revision="22.0.1"
-        sha1="074be553c1e55506dde8c92c76aa36f0a5b13956">
-        <dex dex="/Users/chenyuan/Documents/CensusData/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_96958bb7d8b3113de8ab4e7043b52c146926c86c/classes.dex" />
-    </item>
-
-</items>

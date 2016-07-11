@@ -505,11 +505,13 @@ public class ActionBarContextView extends AbsActionBarView implements AnimatorLi
 
     @Override
     public void onInitializeAccessibilityEvent(AccessibilityEvent event) {
+        
         if (event.getEventType() == AccessibilityEvent.TYPE_WINDOW_STATE_CHANGED) {
             // Action mode started
              event.setClassName(getClass().getName());
             event.setPackageName(getContext().getPackageName());
             event.setContentDescription(mTitle);
         }
+        super.onInitializeAccessibilityEvent(event);
     }
 }

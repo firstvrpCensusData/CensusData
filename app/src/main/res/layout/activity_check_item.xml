@@ -1,110 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="52dip"
-        android:orientation="horizontal"
-        android:descendantFocusability="blocksDescendants"
-        >
-        <CheckBox
-            android:id="@+id/checkBox"
-            android:layout_width="35dp"
-            android:layout_height="35dp"
-            android:layout_gravity="center"
-            android:visibility="visible"
-            />
+        android:background="@color/white"
+        android:orientation="vertical">
+
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="52dip"
-            android:orientation="vertical">
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
 
-            <LinearLayout
+            <TextView
+                android:id="@+id/check_units_name"
                 android:layout_width="match_parent"
+                android:layout_height="30dip"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dip"
+                android:text="公司名称："
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/check_units_id"
+                android:layout_width="wrap_content"
+                android:layout_height="30dip"
+                android:gravity="center_vertical"
+                android:text="id"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:gravity="center"
-                android:orientation="horizontal">
-                <TextView
-                    android:id="@+id/check_units_name"
-                    android:layout_width="match_parent"
-                    android:layout_height="30dip"
-                    android:gravity="center_vertical"
-                    android:paddingLeft="10dip"
-                    android:text="公司名称："
-                    android:textSize="16sp"
-                    android:textStyle="bold" />
-                <TextView
-                    android:id="@+id/check_units_id"
-                    android:layout_width="wrap_content"
-                    android:layout_height="30dip"
-                    android:gravity="center_vertical"
-                    android:text="id"
-                    android:visibility="invisible"
-                    />
-            </LinearLayout>
+                android:layout_weight="0.5" />
 
-            <LinearLayout
-                android:layout_width="match_parent"
+            <TextView
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:gravity="center"
-                android:orientation="horizontal">
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:text="@string/item_checke_type"
+                android:textSize="12sp" />
 
-                <View
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="0.5" />
+            <TextView
+                android:id="@+id/item_check_type"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:textSize="12sp" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:text="@string/item_preparer"
+                android:textSize="12sp" />
 
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="@string/item_checke_type"
-                    android:textSize="12sp"
-                    android:singleLine="true"
-                    />
+            <TextView
+                android:id="@+id/item_preparer"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:textSize="12sp" />
 
-                <TextView
-                    android:id="@+id/item_check_type"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:singleLine="true"
-                    android:textSize="12sp" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:text="@string/b_table_number"
+                android:textSize="12sp" />
 
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="@string/item_preparer"
-                    android:singleLine="true"
-                    android:textSize="12sp" />
-
-                <TextView
-                    android:id="@+id/item_preparer"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:singleLine="true"
-                    android:textSize="12sp" />
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:singleLine="true"
-                    android:text="@string/b_table_number"
-                    android:textSize="12sp" />
-
-                <TextView
-                    android:id="@+id/b_table_number"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="0.5"
-                    android:singleLine="true"
-                    android:textSize="12sp" />
-            </LinearLayout>
+            <TextView
+                android:id="@+id/b_table_number"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:singleLine="true"
+                android:textSize="12sp" />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

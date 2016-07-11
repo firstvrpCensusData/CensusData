@@ -1,94 +1,186 @@
 [
     {
-        "merged": "/Users/chenyuan/Documents/CensusData/actionbarsherlock/build/intermediates/res/merged/androidTest/debug/layout/abs__screen_action_bar.xml",
-        "source": "/Users/chenyuan/Documents/CensusData/actionbarsherlock/build/intermediates/bundles/debug/res/layout/abs__screen_action_bar.xml"
+        "merged": "F:\\githubworkspace\\CensusData\\actionbarsherlock\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abs__list_menu_item_icon.xml",
+        "source": "F:\\githubworkspace\\CensusData\\actionbarsherlock\\build\\intermediates\\bundles\\debug\\res\\layout\\abs__list_menu_item_icon.xml"
     },
     {
-        "merged": "/Users/chenyuan/Documents/CensusData/actionbarsherlock/build/intermediates/res/merged/androidTest/debug/layout/abs__action_mode_bar.xml",
-        "source": "/Users/chenyuan/Documents/CensusData/actionbarsherlock/build/intermediates/bundles/debug/res/layout/abs__action_mode_bar.xml"
+        "merged": "F:\\Users\\chenyuan\\Documents\\CensusData\\actionbarsherlock\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abs__screen_simple.xml",
+        "source": "F:\\Users\\chenyuan\\Documents\\CensusData\\actionbarsherlock\\build\\intermediates\\bundles\\debug\\res\\layout\\abs__screen_simple.xml"
     },
     {
-        "merged": "/Users/chenyuan/Documents/CensusData/actionbarsherlock/build/intermediates/res/merged/androidTest/debug/layout/abs__action_bar_home.xml",
-        "source": "/Users/chenyuan/Documents/CensusData/actionbarsherlock/build/intermediates/bundles/debug/res/layout/abs__action_bar_home.xml"
+        "merged": "F:\\Users\\chenyuan\\Documents\\CensusData\\actionbarsherlock\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abs__screen_action_bar_overlay.xml",
+        "source": "F:\\Users\\chenyuan\\Documents\\CensusData\\actionbarsherlock\\build\\intermediates\\bundles\\debug\\res\\layout\\abs__screen_action_bar_overlay.xml"
     },
     {
-        "merged": "/Users/chenyuan/Documents/CensusData/actionbarsherlock/build/intermediates/res/merged/androidTest/debug/layout/abs__popup_menu_item_layout.xml",
-        "source": "/Users/chenyuan/Documents/CensusData/actionbarsherlock/build/intermediates/bundles/debug/res/layout/abs__popup_menu_item_layout.xml"
+        "merged": "F:\\githubworkspace\\CensusData\\actionbarsherlock\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abs__activity_chooser_view_list_item.xml",
+        "source": "F:\\githubworkspace\\CensusData\\actionbarsherlock\\build\\intermediates\\bundles\\debug\\res\\layout\\abs__activity_chooser_view_list_item.xml"
     },
     {
-        "merged": "/Users/chenyuan/Documents/CensusData/actionbarsherlock/build/intermediates/res/merged/androidTest/debug/layout/abs__list_menu_item_checkbox.xml",
-        "source": "/Users/chenyuan/Documents/CensusData/actionbarsherlock/build/intermediates/bundles/debug/res/layout/abs__list_menu_item_checkbox.xml"
+        "merged": "F:\\githubworkspace\\CensusData\\actionbarsherlock\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abs__action_menu_item_layout.xml",
+        "source": "F:\\githubworkspace\\CensusData\\actionbarsherlock\\build\\intermediates\\bundles\\debug\\res\\layout\\abs__action_menu_item_layout.xml"
     },
     {
-        "merged": "/Users/chenyuan/Documents/CensusData/actionbarsherlock/build/intermediates/res/merged/androidTest/debug/layout/sherlock_spinner_item.xml",
-        "source": "/Users/chenyuan/Documents/CensusData/actionbarsherlock/build/intermediates/bundles/debug/res/layout/sherlock_spinner_item.xml"
+        "merged": "F:\\githubworkspace\\CensusData\\actionbarsherlock\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abs__popup_menu_item_layout.xml",
+        "source": "F:\\githubworkspace\\CensusData\\actionbarsherlock\\build\\intermediates\\bundles\\debug\\res\\layout\\abs__popup_menu_item_layout.xml"
     },
     {
-        "merged": "/Users/chenyuan/Documents/CensusData/actionbarsherlock/build/intermediates/res/merged/androidTest/debug/layout/abs__list_menu_item_radio.xml",
-        "source": "/Users/chenyuan/Documents/CensusData/actionbarsherlock/build/intermediates/bundles/debug/res/layout/abs__list_menu_item_radio.xml"
+        "merged": "F:\\githubworkspace\\CensusData\\actionbarsherlock\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abs__action_mode_bar.xml",
+        "source": "F:\\githubworkspace\\CensusData\\actionbarsherlock\\build\\intermediates\\bundles\\debug\\res\\layout\\abs__action_mode_bar.xml"
     },
     {
-        "merged": "/Users/chenyuan/Documents/CensusData/actionbarsherlock/build/intermediates/res/merged/androidTest/debug/layout/abs__screen_simple_overlay_action_mode.xml",
-        "source": "/Users/chenyuan/Documents/CensusData/actionbarsherlock/build/intermediates/bundles/debug/res/layout/abs__screen_simple_overlay_action_mode.xml"
+        "merged": "F:\\githubworkspace\\CensusData\\actionbarsherlock\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abs__action_bar_home.xml",
+        "source": "F:\\githubworkspace\\CensusData\\actionbarsherlock\\build\\intermediates\\bundles\\debug\\res\\layout\\abs__action_bar_home.xml"
     },
     {
-        "merged": "/Users/chenyuan/Documents/CensusData/actionbarsherlock/build/intermediates/res/merged/androidTest/debug/layout/abs__action_menu_layout.xml",
-        "source": "/Users/chenyuan/Documents/CensusData/actionbarsherlock/build/intermediates/bundles/debug/res/layout/abs__action_menu_layout.xml"
+        "merged": "F:\\Users\\chenyuan\\Documents\\CensusData\\actionbarsherlock\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abs__screen_action_bar.xml",
+        "source": "F:\\Users\\chenyuan\\Documents\\CensusData\\actionbarsherlock\\build\\intermediates\\bundles\\debug\\res\\layout\\abs__screen_action_bar.xml"
     },
     {
-        "merged": "/Users/chenyuan/Documents/CensusData/actionbarsherlock/build/intermediates/res/merged/androidTest/debug/layout/abs__simple_dropdown_hint.xml",
-        "source": "/Users/chenyuan/Documents/CensusData/actionbarsherlock/build/intermediates/bundles/debug/res/layout/abs__simple_dropdown_hint.xml"
+        "merged": "F:\\githubworkspace\\CensusData\\actionbarsherlock\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abs__action_bar_tab_bar_view.xml",
+        "source": "F:\\githubworkspace\\CensusData\\actionbarsherlock\\build\\intermediates\\bundles\\debug\\res\\layout\\abs__action_bar_tab_bar_view.xml"
     },
     {
-        "merged": "/Users/chenyuan/Documents/CensusData/actionbarsherlock/build/intermediates/res/merged/androidTest/debug/layout/abs__list_menu_item_icon.xml",
-        "source": "/Users/chenyuan/Documents/CensusData/actionbarsherlock/build/intermediates/bundles/debug/res/layout/abs__list_menu_item_icon.xml"
+        "merged": "F:\\githubworkspace\\CensusData\\actionbarsherlock\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abs__list_menu_item_radio.xml",
+        "source": "F:\\githubworkspace\\CensusData\\actionbarsherlock\\build\\intermediates\\bundles\\debug\\res\\layout\\abs__list_menu_item_radio.xml"
     },
     {
-        "merged": "/Users/chenyuan/Documents/CensusData/actionbarsherlock/build/intermediates/res/merged/androidTest/debug/layout/abs__action_bar_tab.xml",
-        "source": "/Users/chenyuan/Documents/CensusData/actionbarsherlock/build/intermediates/bundles/debug/res/layout/abs__action_bar_tab.xml"
+        "merged": "F:\\githubworkspace\\CensusData\\actionbarsherlock\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abs__list_menu_item_checkbox.xml",
+        "source": "F:\\githubworkspace\\CensusData\\actionbarsherlock\\build\\intermediates\\bundles\\debug\\res\\layout\\abs__list_menu_item_checkbox.xml"
     },
     {
-        "merged": "/Users/chenyuan/Documents/CensusData/actionbarsherlock/build/intermediates/res/merged/androidTest/debug/layout/abs__screen_action_bar_overlay.xml",
-        "source": "/Users/chenyuan/Documents/CensusData/actionbarsherlock/build/intermediates/bundles/debug/res/layout/abs__screen_action_bar_overlay.xml"
+        "merged": "F:\\Users\\chenyuan\\Documents\\CensusData\\actionbarsherlock\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abs__search_dropdown_item_icons_2line.xml",
+        "source": "F:\\Users\\chenyuan\\Documents\\CensusData\\actionbarsherlock\\build\\intermediates\\bundles\\debug\\res\\layout\\abs__search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "/Users/chenyuan/Documents/CensusData/actionbarsherlock/build/intermediates/res/merged/androidTest/debug/layout/abs__action_mode_close_item.xml",
-        "source": "/Users/chenyuan/Documents/CensusData/actionbarsherlock/build/intermediates/bundles/debug/res/layout/abs__action_mode_close_item.xml"
+        "merged": "F:\\Users\\chenyuan\\Documents\\CensusData\\actionbarsherlock\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abs__list_menu_item_radio.xml",
+        "source": "F:\\Users\\chenyuan\\Documents\\CensusData\\actionbarsherlock\\build\\intermediates\\bundles\\debug\\res\\layout\\abs__list_menu_item_radio.xml"
     },
     {
-        "merged": "/Users/chenyuan/Documents/CensusData/actionbarsherlock/build/intermediates/res/merged/androidTest/debug/layout/abs__search_view.xml",
-        "source": "/Users/chenyuan/Documents/CensusData/actionbarsherlock/build/intermediates/bundles/debug/res/layout/abs__search_view.xml"
+        "merged": "F:\\Users\\chenyuan\\Documents\\CensusData\\actionbarsherlock\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abs__search_view.xml",
+        "source": "F:\\Users\\chenyuan\\Documents\\CensusData\\actionbarsherlock\\build\\intermediates\\bundles\\debug\\res\\layout\\abs__search_view.xml"
     },
     {
-        "merged": "/Users/chenyuan/Documents/CensusData/actionbarsherlock/build/intermediates/res/merged/androidTest/debug/layout/abs__screen_simple.xml",
-        "source": "/Users/chenyuan/Documents/CensusData/actionbarsherlock/build/intermediates/bundles/debug/res/layout/abs__screen_simple.xml"
+        "merged": "F:\\Users\\chenyuan\\Documents\\CensusData\\actionbarsherlock\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abs__action_mode_bar.xml",
+        "source": "F:\\Users\\chenyuan\\Documents\\CensusData\\actionbarsherlock\\build\\intermediates\\bundles\\debug\\res\\layout\\abs__action_mode_bar.xml"
     },
     {
-        "merged": "/Users/chenyuan/Documents/CensusData/actionbarsherlock/build/intermediates/res/merged/androidTest/debug/layout/abs__action_menu_item_layout.xml",
-        "source": "/Users/chenyuan/Documents/CensusData/actionbarsherlock/build/intermediates/bundles/debug/res/layout/abs__action_menu_item_layout.xml"
+        "merged": "F:\\githubworkspace\\CensusData\\actionbarsherlock\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abs__screen_simple.xml",
+        "source": "F:\\githubworkspace\\CensusData\\actionbarsherlock\\build\\intermediates\\bundles\\debug\\res\\layout\\abs__screen_simple.xml"
     },
     {
-        "merged": "/Users/chenyuan/Documents/CensusData/actionbarsherlock/build/intermediates/res/merged/androidTest/debug/layout/abs__action_bar_title_item.xml",
-        "source": "/Users/chenyuan/Documents/CensusData/actionbarsherlock/build/intermediates/bundles/debug/res/layout/abs__action_bar_title_item.xml"
+        "merged": "F:\\githubworkspace\\CensusData\\actionbarsherlock\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abs__search_dropdown_item_icons_2line.xml",
+        "source": "F:\\githubworkspace\\CensusData\\actionbarsherlock\\build\\intermediates\\bundles\\debug\\res\\layout\\abs__search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "/Users/chenyuan/Documents/CensusData/actionbarsherlock/build/intermediates/res/merged/androidTest/debug/layout/sherlock_spinner_dropdown_item.xml",
-        "source": "/Users/chenyuan/Documents/CensusData/actionbarsherlock/build/intermediates/bundles/debug/res/layout/sherlock_spinner_dropdown_item.xml"
+        "merged": "F:\\Users\\chenyuan\\Documents\\CensusData\\actionbarsherlock\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abs__activity_chooser_view_list_item.xml",
+        "source": "F:\\Users\\chenyuan\\Documents\\CensusData\\actionbarsherlock\\build\\intermediates\\bundles\\debug\\res\\layout\\abs__activity_chooser_view_list_item.xml"
     },
     {
-        "merged": "/Users/chenyuan/Documents/CensusData/actionbarsherlock/build/intermediates/res/merged/androidTest/debug/layout/abs__activity_chooser_view_list_item.xml",
-        "source": "/Users/chenyuan/Documents/CensusData/actionbarsherlock/build/intermediates/bundles/debug/res/layout/abs__activity_chooser_view_list_item.xml"
+        "merged": "F:\\githubworkspace\\CensusData\\actionbarsherlock\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abs__screen_action_bar_overlay.xml",
+        "source": "F:\\githubworkspace\\CensusData\\actionbarsherlock\\build\\intermediates\\bundles\\debug\\res\\layout\\abs__screen_action_bar_overlay.xml"
     },
     {
-        "merged": "/Users/chenyuan/Documents/CensusData/actionbarsherlock/build/intermediates/res/merged/androidTest/debug/layout/abs__search_dropdown_item_icons_2line.xml",
-        "source": "/Users/chenyuan/Documents/CensusData/actionbarsherlock/build/intermediates/bundles/debug/res/layout/abs__search_dropdown_item_icons_2line.xml"
+        "merged": "F:\\githubworkspace\\CensusData\\actionbarsherlock\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abs__search_view.xml",
+        "source": "F:\\githubworkspace\\CensusData\\actionbarsherlock\\build\\intermediates\\bundles\\debug\\res\\layout\\abs__search_view.xml"
     },
     {
-        "merged": "/Users/chenyuan/Documents/CensusData/actionbarsherlock/build/intermediates/res/merged/androidTest/debug/layout/abs__action_bar_tab_bar_view.xml",
-        "source": "/Users/chenyuan/Documents/CensusData/actionbarsherlock/build/intermediates/bundles/debug/res/layout/abs__action_bar_tab_bar_view.xml"
+        "merged": "F:\\Users\\chenyuan\\Documents\\CensusData\\actionbarsherlock\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abs__popup_menu_item_layout.xml",
+        "source": "F:\\Users\\chenyuan\\Documents\\CensusData\\actionbarsherlock\\build\\intermediates\\bundles\\debug\\res\\layout\\abs__popup_menu_item_layout.xml"
     },
     {
-        "merged": "/Users/chenyuan/Documents/CensusData/actionbarsherlock/build/intermediates/res/merged/androidTest/debug/layout/abs__activity_chooser_view.xml",
-        "source": "/Users/chenyuan/Documents/CensusData/actionbarsherlock/build/intermediates/bundles/debug/res/layout/abs__activity_chooser_view.xml"
+        "merged": "F:\\githubworkspace\\CensusData\\actionbarsherlock\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abs__simple_dropdown_hint.xml",
+        "source": "F:\\githubworkspace\\CensusData\\actionbarsherlock\\build\\intermediates\\bundles\\debug\\res\\layout\\abs__simple_dropdown_hint.xml"
+    },
+    {
+        "merged": "F:\\githubworkspace\\CensusData\\actionbarsherlock\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\sherlock_spinner_item.xml",
+        "source": "F:\\githubworkspace\\CensusData\\actionbarsherlock\\build\\intermediates\\bundles\\debug\\res\\layout\\sherlock_spinner_item.xml"
+    },
+    {
+        "merged": "F:\\Users\\chenyuan\\Documents\\CensusData\\actionbarsherlock\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abs__action_bar_tab.xml",
+        "source": "F:\\Users\\chenyuan\\Documents\\CensusData\\actionbarsherlock\\build\\intermediates\\bundles\\debug\\res\\layout\\abs__action_bar_tab.xml"
+    },
+    {
+        "merged": "F:\\githubworkspace\\CensusData\\actionbarsherlock\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\sherlock_spinner_dropdown_item.xml",
+        "source": "F:\\githubworkspace\\CensusData\\actionbarsherlock\\build\\intermediates\\bundles\\debug\\res\\layout\\sherlock_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "F:\\Users\\chenyuan\\Documents\\CensusData\\actionbarsherlock\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\sherlock_spinner_item.xml",
+        "source": "F:\\Users\\chenyuan\\Documents\\CensusData\\actionbarsherlock\\build\\intermediates\\bundles\\debug\\res\\layout\\sherlock_spinner_item.xml"
+    },
+    {
+        "merged": "F:\\githubworkspace\\CensusData\\actionbarsherlock\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abs__action_bar_title_item.xml",
+        "source": "F:\\githubworkspace\\CensusData\\actionbarsherlock\\build\\intermediates\\bundles\\debug\\res\\layout\\abs__action_bar_title_item.xml"
+    },
+    {
+        "merged": "F:\\Users\\chenyuan\\Documents\\CensusData\\actionbarsherlock\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abs__list_menu_item_icon.xml",
+        "source": "F:\\Users\\chenyuan\\Documents\\CensusData\\actionbarsherlock\\build\\intermediates\\bundles\\debug\\res\\layout\\abs__list_menu_item_icon.xml"
+    },
+    {
+        "merged": "F:\\Users\\chenyuan\\Documents\\CensusData\\actionbarsherlock\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abs__action_bar_tab_bar_view.xml",
+        "source": "F:\\Users\\chenyuan\\Documents\\CensusData\\actionbarsherlock\\build\\intermediates\\bundles\\debug\\res\\layout\\abs__action_bar_tab_bar_view.xml"
+    },
+    {
+        "merged": "F:\\Users\\chenyuan\\Documents\\CensusData\\actionbarsherlock\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abs__activity_chooser_view.xml",
+        "source": "F:\\Users\\chenyuan\\Documents\\CensusData\\actionbarsherlock\\build\\intermediates\\bundles\\debug\\res\\layout\\abs__activity_chooser_view.xml"
+    },
+    {
+        "merged": "F:\\githubworkspace\\CensusData\\actionbarsherlock\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abs__screen_simple_overlay_action_mode.xml",
+        "source": "F:\\githubworkspace\\CensusData\\actionbarsherlock\\build\\intermediates\\bundles\\debug\\res\\layout\\abs__screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "F:\\Users\\chenyuan\\Documents\\CensusData\\actionbarsherlock\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abs__action_mode_close_item.xml",
+        "source": "F:\\Users\\chenyuan\\Documents\\CensusData\\actionbarsherlock\\build\\intermediates\\bundles\\debug\\res\\layout\\abs__action_mode_close_item.xml"
+    },
+    {
+        "merged": "F:\\Users\\chenyuan\\Documents\\CensusData\\actionbarsherlock\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abs__simple_dropdown_hint.xml",
+        "source": "F:\\Users\\chenyuan\\Documents\\CensusData\\actionbarsherlock\\build\\intermediates\\bundles\\debug\\res\\layout\\abs__simple_dropdown_hint.xml"
+    },
+    {
+        "merged": "F:\\Users\\chenyuan\\Documents\\CensusData\\actionbarsherlock\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abs__action_menu_item_layout.xml",
+        "source": "F:\\Users\\chenyuan\\Documents\\CensusData\\actionbarsherlock\\build\\intermediates\\bundles\\debug\\res\\layout\\abs__action_menu_item_layout.xml"
+    },
+    {
+        "merged": "F:\\githubworkspace\\CensusData\\actionbarsherlock\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abs__action_mode_close_item.xml",
+        "source": "F:\\githubworkspace\\CensusData\\actionbarsherlock\\build\\intermediates\\bundles\\debug\\res\\layout\\abs__action_mode_close_item.xml"
+    },
+    {
+        "merged": "F:\\githubworkspace\\CensusData\\actionbarsherlock\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abs__activity_chooser_view.xml",
+        "source": "F:\\githubworkspace\\CensusData\\actionbarsherlock\\build\\intermediates\\bundles\\debug\\res\\layout\\abs__activity_chooser_view.xml"
+    },
+    {
+        "merged": "F:\\Users\\chenyuan\\Documents\\CensusData\\actionbarsherlock\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abs__action_bar_home.xml",
+        "source": "F:\\Users\\chenyuan\\Documents\\CensusData\\actionbarsherlock\\build\\intermediates\\bundles\\debug\\res\\layout\\abs__action_bar_home.xml"
+    },
+    {
+        "merged": "F:\\githubworkspace\\CensusData\\actionbarsherlock\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abs__screen_action_bar.xml",
+        "source": "F:\\githubworkspace\\CensusData\\actionbarsherlock\\build\\intermediates\\bundles\\debug\\res\\layout\\abs__screen_action_bar.xml"
+    },
+    {
+        "merged": "F:\\Users\\chenyuan\\Documents\\CensusData\\actionbarsherlock\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abs__action_menu_layout.xml",
+        "source": "F:\\Users\\chenyuan\\Documents\\CensusData\\actionbarsherlock\\build\\intermediates\\bundles\\debug\\res\\layout\\abs__action_menu_layout.xml"
+    },
+    {
+        "merged": "F:\\Users\\chenyuan\\Documents\\CensusData\\actionbarsherlock\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\sherlock_spinner_dropdown_item.xml",
+        "source": "F:\\Users\\chenyuan\\Documents\\CensusData\\actionbarsherlock\\build\\intermediates\\bundles\\debug\\res\\layout\\sherlock_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "F:\\Users\\chenyuan\\Documents\\CensusData\\actionbarsherlock\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abs__screen_simple_overlay_action_mode.xml",
+        "source": "F:\\Users\\chenyuan\\Documents\\CensusData\\actionbarsherlock\\build\\intermediates\\bundles\\debug\\res\\layout\\abs__screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "F:\\Users\\chenyuan\\Documents\\CensusData\\actionbarsherlock\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abs__action_bar_title_item.xml",
+        "source": "F:\\Users\\chenyuan\\Documents\\CensusData\\actionbarsherlock\\build\\intermediates\\bundles\\debug\\res\\layout\\abs__action_bar_title_item.xml"
+    },
+    {
+        "merged": "F:\\githubworkspace\\CensusData\\actionbarsherlock\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abs__action_menu_layout.xml",
+        "source": "F:\\githubworkspace\\CensusData\\actionbarsherlock\\build\\intermediates\\bundles\\debug\\res\\layout\\abs__action_menu_layout.xml"
+    },
+    {
+        "merged": "F:\\githubworkspace\\CensusData\\actionbarsherlock\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abs__action_bar_tab.xml",
+        "source": "F:\\githubworkspace\\CensusData\\actionbarsherlock\\build\\intermediates\\bundles\\debug\\res\\layout\\abs__action_bar_tab.xml"
+    },
+    {
+        "merged": "F:\\Users\\chenyuan\\Documents\\CensusData\\actionbarsherlock\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abs__list_menu_item_checkbox.xml",
+        "source": "F:\\Users\\chenyuan\\Documents\\CensusData\\actionbarsherlock\\build\\intermediates\\bundles\\debug\\res\\layout\\abs__list_menu_item_checkbox.xml"
     }
 ]

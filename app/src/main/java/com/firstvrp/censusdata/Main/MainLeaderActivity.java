@@ -12,7 +12,6 @@ import com.actionbarsherlock.app.ActionBar;
 import com.actionbarsherlock.app.SherlockActivity;
 import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuItem;
-import com.firstvrp.censusdata.CheckPendingActivity;
 import com.firstvrp.censusdata.R;
 import com.firstvrp.censusdata.SearchActivity;
 
@@ -46,7 +45,7 @@ public class MainLeaderActivity extends SherlockActivity {
         tabHost.setup(this, getSupportFragmentManager(), R.id.framlayout_my);
 
         tabHost.addTab(tabHost.newTabSpec("1").setIndicator("1")
-                , CheckPendingActivity.class, null);
+                , LeaderCheckPendingFragment.class, null);
         tabHost.addTab(tabHost.newTabSpec("2").setIndicator("2")
                 , CheckedFragment.class, null);
         tabHost.addTab(tabHost.newTabSpec("3").setIndicator("3")
@@ -95,10 +94,10 @@ public class MainLeaderActivity extends SherlockActivity {
             // TODO Auto-generated method stub
             switch (arg0.getId()) {
                 case R.id.checkpending_framelayout:
-                    //tabHost.setCurrentTabByTag("1");
-                    Intent intent = new Intent(MainLeaderActivity.this,CheckPendingActivity.class);
-                    startActivity(intent);
-                    /*tab_checkpending.setImageResource(R.drawable.tab_home_click);
+                    tabHost.setCurrentTabByTag("1");
+                  /*  Intent intent = new Intent(MainLeaderActivity.this,CheckPendingActivity.class);
+                    startActivity(intent);*/
+                    tab_checkpending.setImageResource(R.drawable.tab_home_click);
                     tab_checked_click.setImageResource(R.drawable.tab_bang);
                     tab_analyze_click.setImageResource(R.drawable.tab_analyze);
                     tab_search_click.setImageResource(R.drawable.tab_search);
@@ -110,7 +109,7 @@ public class MainLeaderActivity extends SherlockActivity {
                     tab_mycenter_text.setTextColor(R.color.black);
                     tab_search_text.setTextColor(R.color.black);
 
-                    actionBar.setTitle(R.string.check_pending);*/
+                    actionBar.setTitle(R.string.check_pending);
                     break;
                 case R.id.checked_framelayout:
                     tabHost.setCurrentTabByTag("2");
@@ -129,6 +128,7 @@ public class MainLeaderActivity extends SherlockActivity {
                     tab_search_text.setTextColor(R.color.black);
 
                     actionBar.setTitle(R.string.checke_text);
+                    
                     break;
                 case R.id.analyze_framelayout:
                     tabHost.setCurrentTabByTag("3");
@@ -190,10 +190,9 @@ public class MainLeaderActivity extends SherlockActivity {
         actionBar.setDisplayHomeAsUpEnabled(false);
         actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_STANDARD);
         actionBar.setDisplayShowTitleEnabled(true);
-        actionBar.setDisplayShowCustomEnabled(true);
         actionBar.setDisplayShowHomeEnabled(false);
         actionBar.setDisplayUseLogoEnabled(true);
-       
+        actionBar.setDisplayShowCustomEnabled(true);
     }
 
 

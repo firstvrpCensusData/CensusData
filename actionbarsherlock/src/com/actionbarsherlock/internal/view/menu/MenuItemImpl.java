@@ -330,7 +330,6 @@ public final class MenuItemImpl implements MenuItem {
     }
 
     /**
-     * Gets the title for a particular {@link ItemView}
      *
      * @param itemView The ItemView that is receiving the title
      * @return Either the title or condensed title based on what the ItemView

@@ -40,7 +40,6 @@ public class CheakSimpleAdapter extends SimpleAdapter {
         mContext = context;
         inflater=LayoutInflater.from(context);
         View view = inflater.inflate(R.layout.fragment_checkpending, null);
-        mCheckBox = (CheckBox) view.findViewById(R.id.checkBox);
     }
     public void toggle(){
         new Thread(){
@@ -75,7 +74,7 @@ public class CheakSimpleAdapter extends SimpleAdapter {
         isShow = false;
     }
     private Handler handler = new Handler(){
-        public void handleMessage(android.os.Message msg){
+        public void handleMessage(Message msg){
        
             //更新UI
         }

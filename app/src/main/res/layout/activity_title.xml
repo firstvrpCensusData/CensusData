@@ -10,16 +10,23 @@
         android:layout_height="45dp"
         android:layout_marginTop="0dp"
         android:background="@color/barcolor">
+        <ImageButton
+            android:id="@+id/title_left"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/ic_ab_back_holo_light_am"
+            android:background="@color/barcolor"
+            android:layout_alignParentLeft="true"
+            />
         <TextView
             android:id="@+id/title_checkpending"
             android:layout_width="match_parent"
             android:layout_height="45dp"
-            android:layout_toLeftOf="@+id/title_right"
             android:gravity="center"
             android:paddingBottom="10dp"
             android:paddingTop="10dp"
             android:text="表格审批"
-            android:textColor="@color/exfirsttext"
+            android:textColor="@color/white"
             android:textSize="22sp" />
         <ImageButton
             android:id="@+id/title_right"

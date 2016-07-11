@@ -1007,8 +1007,6 @@ public class SearchView extends LinearLayout implements CollapsibleActionView {
      * not provided by the specific row/column, also check for a single
      * definition (for the action key).
      *
-     * @param c The cursor providing suggestions
-     * @param actionKey The actionkey record being examined
      *
      * @return Returns a string, or null if no action key message for this
      *         suggestion

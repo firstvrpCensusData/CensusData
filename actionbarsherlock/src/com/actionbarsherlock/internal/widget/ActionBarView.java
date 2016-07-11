@@ -428,7 +428,8 @@ public class ActionBarView extends AbsActionBarView {
                 if (oldParent != null && oldParent != mSplitView) {
                     oldParent.removeView(menuView);
                 }
-                menuView.setVisibility(getAnimatedVisibility());
+               // menuView.setVisibility(getAnimatedVisibility());
+                menuView.setVisibility(View.VISIBLE);
                 mSplitView.addView(menuView, layoutParams);
             } else {
                 // We'll add this later if we missed it this time.

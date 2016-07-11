@@ -125,6 +125,13 @@
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:theme="@style/Theme.Wang" 
             android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity android:name=".Main.MainDoorActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="深圳文体场地调查登记表"
+            android:theme="@style/Theme.MY"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+
+
         <service
             android:name="com.baidu.location.f"
             android:enabled="true"

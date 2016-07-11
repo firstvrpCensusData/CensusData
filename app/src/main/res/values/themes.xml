@@ -8,6 +8,11 @@
         <item name="android:windowActionBar">false</item>
         <item name="android:windowNoTitle">true</item>
     </style>
+    <style name="Theme.Peng" parent="Theme.Sherlock.Light.Definition">
+        <item name="actionBarStyle">@style/Widget.Peng.ActionBar</item>
+        <item name="android:actionBarStyle">@style/Widget.Peng.ActionBar</item>
+    </style>
+    
     <!-- 标题栏的样式 -->
     <style name="Widget.My.ActionBar" parent="Widget.Sherlock.ActionBar.Solid">
         <item name="titleTextStyle">@style/Widget.My.ActionBar.Title</item>
@@ -27,5 +32,21 @@
         <item name="android:layout_marginLeft">100dp</item>
         <item name="android:layout_centerInParent">true</item>
     </style>
+    <style name="Widget.Peng.ActionBar" parent="Widget.Sherlock.ActionBar.Solid">
+        <item name="titleTextStyle">@style/Widget.Peng.ActionBar.Title</item>
+        <item name="android:background">#71d6ae</item>
+        <item name="android:backgroundStacked">#71d6ae</item>
+        <item name="android:backgroundSplit">#71d6ae</item>
+        <item name="android:titleTextStyle">@style/Widget.Peng.ActionBar.Title</item>
 
+    </style>
+    <style name="Widget.Peng.ActionBar.Title" parent="Widget.Sherlock.ActionBar.TabText">
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:paddingLeft">100dp</item>
+        <item name="android:layout_width">500dp</item>
+    </style>
 </resources>
